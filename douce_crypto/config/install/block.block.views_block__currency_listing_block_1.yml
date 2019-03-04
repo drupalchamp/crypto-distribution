@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.currency_listing
+  module:
+    - system
+    - views
+  theme:
+    - crypto
+_core:
+  default_config_hash: SKWeHj-I6dbah9klzmNIozhMJzFZ-Mh3abNwk-tzRUY
+id: views_block__currency_listing_block_1
+theme: crypto
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:currency_listing-block_1'
+settings:
+  id: 'views_block:currency_listing-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,88 @@
+<?php
+
+/**
+ * @file
+ * crypto_import.module
+ */
+
+use Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_cron()
+ */
+function crypto_import_cron() {
+  import_currencies_data();
+}
+
+/**
+ * Declare Import Currencies Data functions.
+ */
+function import_currencies_data() {
+  $connection = \Drupal::database();
+  $query = $connection->select('node_field_data', 'nfd');
+  $query->fields('nfd', ['nid', 'title']);
+  $query->condition('nfd.type', 'markets');
+  $query->condition('nfd.status', 1, '=');
+
+  $query->leftjoin('node__field_base_symbol', 'nfbs', 'nfbs.entity_id = nfd.nid');
+  $query->addField('nfbs', 'field_base_symbol_value', 'symbol');
+
+  $query->distinct();
+
+  $results = $query->execute();
+
+  $markets = $symbols = [];
+  if (!empty($results)) {
+    foreach ($results as $result) {
+      $symbols[$result->symbol] = $result->symbol;
+      $markets[$result->symbol] = $result;
+    }
+  }
+
+  if (isset($symbols)) {
+    $fsyms = implode(',', $symbols);
+    $tsyms = 'USD';
+    $method = 'GET';
+    $key = \Drupal::config('crypto_api_key.settings')->get('api_key');
+    $url = "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=$fsyms&tsyms=$tsyms&api_key=$key";
+    $options = ['timeout' => 600, 'headers' => ['Accept' => 'application/json']];
+    try {
+      $response = \Drupal::httpClient()->request($method, $url, $options);
+      $code = $response->getStatusCode();
+      if ($code == 200) {
+        $body = $response->getBody()->getContents();
+        $response_data = json_decode($body);
+        foreach ($symbols as $symbol) {
+          if (isset($response_data->RAW->{$symbol}->{$tsyms})) {
+            $nid = $markets[$symbol]->nid;
+            $data = $response_data->RAW->{$symbol}->{$tsyms};
+
+            $node = Node::load($nid);
+            $node->set('field_open', $data->OPENDAY);
+            $node->set('field_last', $data->PRICE);
+            $node->set('field_high', $data->HIGHDAY);
+            $node->set('field_low', $data->LOWDAY);
+            $node->set('field_volume', $data->VOLUME24HOURTO);
+            $node->set('field_market_cap', $data->MKTCAP);
+            $node->set('field_circulating_supply', $data->SUPPLY);
+            $node->set('field_change_24h', $data->CHANGE24HOUR);
+            $node->set('field_change_24h_pct', $data->CHANGEPCT24HOUR);
+
+            try {
+              $node->save();
+            }
+            catch (\Exception $e) {
+              watchdog_exception('crypto_import', $e);
+              \Drupal::messenger()->addMessage("Error on Updating Currency Data.");
+              return FALSE;
+            }
+          }
+
+        }
+      }
+    }
+    catch (\Exception $e) {
+      return FALSE;
+    }
+  }
+}

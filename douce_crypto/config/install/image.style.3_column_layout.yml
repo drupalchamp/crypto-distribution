@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 3_column_layout
+label: '3 Column Layout'
+effects:
+  3e8694c3-29af-408a-a53f-9901ebb5ed13:
+    uuid: 3e8694c3-29af-408a-a53f-9901ebb5ed13
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 375
+      height: 250
+      anchor: center-center

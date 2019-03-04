@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Markets
+type: markets
+description: 'Keeps relationship between currency and exchange and the market data of the currency.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

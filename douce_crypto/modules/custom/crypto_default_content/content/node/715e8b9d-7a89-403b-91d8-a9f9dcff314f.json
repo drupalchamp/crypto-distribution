@@ -1,0 +1,249 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/1113?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/markets"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/field_base_currency": [
+            {
+                "href": "http:\/\/default\/currencies\/vechain?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/field_target_currency": [
+            {
+                "href": "http:\/\/default\/node\/4?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1113
+        }
+    ],
+    "uuid": [
+        {
+            "value": "715e8b9d-7a89-403b-91d8-a9f9dcff314f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1240
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "markets"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-02-16T05:54:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/field_base_currency": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/currencies\/vechain?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/currency"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d4cfb580-62a6-414c-af62-d15d8e617716"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/field_target_currency": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/fiat_currency"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "21ffc901-4a16-45e2-89dd-a4d07bf8476d"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "VET\/USD",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-02-16T05:54:28+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-01T05:34:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_ask": [
+        {
+            "value": 0
+        }
+    ],
+    "field_base_symbol": [
+        {
+            "value": "VET"
+        }
+    ],
+    "field_bid": [
+        {
+            "value": 0
+        }
+    ],
+    "field_change_24h": [
+        {
+            "value": 5.5012e-6
+        }
+    ],
+    "field_change_24h_pct": [
+        {
+            "value": 0.120736
+        }
+    ],
+    "field_circulating_supply": [
+        {
+            "value": 55454700000
+        }
+    ],
+    "field_high": [
+        {
+            "value": 0.00469665
+        }
+    ],
+    "field_last": [
+        {
+            "value": 0.00456187
+        }
+    ],
+    "field_low": [
+        {
+            "value": 0.00447935
+        }
+    ],
+    "field_market_cap": [
+        {
+            "value": 252977000
+        }
+    ],
+    "field_open": [
+        {
+            "value": 0.00462376
+        }
+    ],
+    "field_target_symbol": [
+        {
+            "value": "USD"
+        }
+    ],
+    "field_volume": [
+        {
+            "value": 24142.8
+        }
+    ]
+}

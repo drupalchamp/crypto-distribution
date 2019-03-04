@@ -1,0 +1,228 @@
+/**** @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Play:400,700"); ****/
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+/* line 4, ../sass/style.scss */
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+/* line 10, ../sass/style.scss */
+.container {
+  width: 100%;
+}
+
+/**** Header Area Start ****/
+/* line 13, ../sass/style.scss */
+body.not-front header {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* line 14, ../sass/style.scss */
+#navbar-header {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  border: 0px;
+  padding: 15px 0px;
+}
+
+/* line 21, ../sass/style.scss */
+#navbar-header {
+  /**** Menu Area Start****/
+  /**** Menu Area Closed****/
+}
+/* line 22, ../sass/style.scss */
+#navbar-header .page-header {
+  margin: auto;
+  padding: 0px;
+  border-bottom: 0px;
+}
+/* line 28, ../sass/style.scss */
+#navbar-header #logo-container {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  padding-left: 15px;
+}
+/* line 35, ../sass/style.scss */
+#navbar-header .navbar .logo {
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 43, ../sass/style.scss */
+#navbar-header #menu_area {
+  width: auto;
+  padding-top: 8px;
+  float: right;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+/* line 53, ../sass/style.scss */
+#navbar-header #menu_area ul.menu {
+  text-align: right;
+  float: none;
+  width: 100%;
+}
+/* line 59, ../sass/style.scss */
+#navbar-header #menu_area ul.menu li {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  margin-right: 25px;
+}
+/* line 66, ../sass/style.scss */
+#navbar-header #menu_area ul.menu li:last-child {
+  margin-right: 0px;
+}
+/* line 70, ../sass/style.scss */
+#navbar-header #menu_area li a {
+  padding: 8px 0px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  border-bottom: 2px solid transparent;
+}
+
+/**** Header Area Closed****/
+/**** Page Title Area Start****/
+/* line 88, ../sass/style.scss */
+#header_title {
+  text-align: center;
+}
+
+/* line 93, ../sass/style.scss */
+#header_title h1 {
+  border: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-transform: capitalize;
+}
+/* line 100, ../sass/style.scss */
+#header_title .breadcrumb {
+  padding: 0px 15px 10px;
+  margin: auto;
+  text-transform: capitalize;
+}
+
+/**** Page Title Area Closed****/
+/**** Content Area Start****/
+/* line 111, ../sass/style.scss */
+.midcontent {
+  padding: 20px 0px;
+  overflow: hidden;
+  min-height: 450px;
+}
+
+/* line 117, ../sass/style.scss */
+.midcontent #sidebar_first_area {
+  width: 25%;
+  float: left;
+}
+/* line 122, ../sass/style.scss */
+.midcontent .row {
+  margin: 0px;
+}
+/* line 126, ../sass/style.scss */
+.midcontent #midcontent_area {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+/* line 133, ../sass/style.scss */
+.midcontent #sidebar_second_area {
+  width: 25%;
+  float: right;
+}
+/* line 138, ../sass/style.scss */
+.midcontent #sidebar_first_area .block {
+  width: 100%;
+  overflow: hidden;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+/* line 145, ../sass/style.scss */
+.midcontent #sidebar_second_area .block {
+  width: 100%;
+  overflow: hidden;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+/* line 152, ../sass/style.scss */
+.midcontent img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 159, ../sass/style.scss */
+body.sidebar-first #midcontent_area {
+  width: 75%;
+  padding-left: 2%;
+}
+
+/* line 164, ../sass/style.scss */
+body.sidebar-second #midcontent_area {
+  width: 75%;
+  padding-right: 2%;
+}
+
+/* line 169, ../sass/style.scss */
+body.Two-sidebars #midcontent_area {
+  width: 50%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/**** Content Area Closed****/
+/**** Footer Area Start****/
+/* line 180, ../sass/style.scss */
+.page-footer {
+  padding: 15px 0px;
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+/* line 186, ../sass/style.scss */
+.page-footer .container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 191, ../sass/style.scss */
+.page-footer h2 {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+/* line 196, ../sass/style.scss */
+.page-footer ul,
+.page-footer li {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  list-style-image: none;
+}
+/* line 204, ../sass/style.scss */
+.page-footer li {
+  float: left;
+  margin-bottom: 8px;
+}
+/* line 209, ../sass/style.scss */
+.page-footer li a {
+  padding: 0px;
+  display: block;
+  cursor: pointer;
+  background: none;
+}
+/* line 216, ../sass/style.scss */
+.page-footer li a:hover,
+.page-footer li > a:focus {
+  background: none;
+}
+/* line 221, ../sass/style.scss */
+.page-footer li:last-child {
+  margin-right: 0px;
+}
+
+/**** Footer Area Closed****/

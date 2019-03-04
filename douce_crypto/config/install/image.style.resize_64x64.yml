@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: resize_64x64
+label: 'Resize 64x64'
+effects:
+  749aabff-af19-454b-b9ba-ed694571a9aa:
+    uuid: 749aabff-af19-454b-b9ba-ed694571a9aa
+    id: image_resize
+    weight: 1
+    data:
+      width: 64
+      height: 64

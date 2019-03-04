@@ -1,0 +1,7 @@
+crypto_import.import_data:
+  path: '/import-data'
+  defaults: 
+    _controller: '\Drupal\crypto_import\Controller\ImportDataController::content'
+  requirements:
+    _permission: 'administrator'
+

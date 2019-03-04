@@ -1,0 +1,263 @@
+/**** Mobile Design Started ****/
+
+@media only screen and (min-width:0px) and (max-width:400px) {
+#block-currencydetail {
+.currency-details .series-tt {
+ width: 50%;
+ margin-bottom: 20px;
+}
+.details-panel-item--price__value span {
+ padding: 5px 15px;
+ font-size: 21px;
+}
+.details-panel-item--today-details,
+.details-panel-item--buy-social-buttons {
+    padding: 0px;
+}
+.details-panel-item--today-details .table tr th{
+font-size:11px;
+}
+.details-panel-item--price {
+width: 64%;
+}
+.currency_detail .currency-title{
+width:35%;
+text-align:center;
+}
+.currency_detail .currency-title img{
+float: none;
+text-align: center;
+margin: 0px;
+}
+}
+#block-addtoanybuttons{right:0px;}
+}
+@media only screen and (min-width:0px) and (max-width:420px) {
+.currency-detail-chart-header {
+padding: 0px;
+}
+.currency-detail-chart-header  .nav > li > a {
+padding:8px;
+}
+.view-news-feeds .image-box {width: 100%;float: none;}
+.view-news-feeds .news_description_box {width: 100%;float: none;padding-left: 0%;}
+}
+@media only screen and (min-width:0px) and (max-width:550px) {
+#block-currencydetail .details-panel-item--marketcap-stats .coin-summary-item {
+ width: 100%;
+ text-align:center;
+}
+}
+ @media only screen and (min-width:401px) and (max-width:768px) {
+.currency-details .series-tt {
+ width: 33%;
+ margin-bottom: 20px;
+}
+.currency_detail .details-panel-item--price {padding-right: 9px !important;}
+}
+ @media only screen and (min-width:421px) and (max-width:767px) {
+.view-news-feeds {
+.views-col {
+width: 48% !important;
+}
+.views-col.col-2 {
+ margin-right: 5px;
+}
+}
+}
+@media only screen and (min-width:650px) and (max-width:767px) {
+.views-field-field-volume {
+ display: table-cell !important;
+}
+.view-currency-listing .table .views-field-field-volume {width:215px !important;max-width: 215px !important;}
+}
+@media only screen and (min-width:0px) and (max-width:767px) {
+.details-panel-item--today-details .table tr th{text-align:center;padding:8px !important;}
+.details-panel-item--today-details .table{text-align:center;}
+#block-addtoanybuttons{top:0px;padding: 0px 4%;}
+#block-currencydetail{margin-top:50px;}
+.currency-detail-chart-header { 
+ul.nav li{text-align:center;}
+ul.nav li i{display:block}
+}
+.daterangepicker.show-ranges.opensright.show-calendar {right: 20px !important;}
+.view-currency-listing {
+ width: 100%;
+}
+.view-currency-listing {
+.table tr th.views-field, .table tr td.views-field {
+ width: 130px;
+ max-width: 130px;
+ text-align: center;
+}
+.views-field-field-change-24h-pct {
+ text-align: center !important;
+}
+.views-field-field-market-cap, .views-field-field-volume, .views-field-field-high, .views-field-field-low, .views-field-nothing-1,.currency_details .currency_title {display:none;}
+.currency_symbol.responsive {
+display: unset !important;
+}
+.currency_details a img {
+float: none;
+margin-right: 0px;
+padding-top: 0px;
+margin: auto;
+}
+.table tr th.views-field.views-field-counter,
+.table tr td.views-field.views-field-counter{
+width: 45px;
+max-width: 45px;
+}
+}
+#navbar-header #logo-container {
+ float: left;
+}
+#menu_area {
+ width: 100% !important;
+ padding: 0px;
+ float: right !important;
+}
+#menu_area {
+.sf-accordion-toggle {
+ width: 50%;
+ float: right;
+ position: absolute;
+ top: -40px;
+ right: 0;
+ text-align: right;
+ padding-right:25px;
+}
+#superfish-main-toggle span {
+ display: inline-block;
+ cursor: pointer;
+}
+ #superfish-main-toggle span span {
+ display: block;
+ background: #fff;
+ height: 4px;
+ width: 25px;
+ margin-bottom: 5px;
+}
+}
+.page-header.container .row, footer .container, footer .container .row {
+ width: 100%;
+ margin: 0;
+}
+.currency tr th,
+.currency tr td {
+ white-space: unset !important;
+}
+.currency tr td.img-responsive {
+ margin: auto;
+}
+.currency_detail .currency-title, .currency_detail .details-panel-item--price {
+ width: 49%;
+ display: inline-block;
+ vertical-align: middle;
+ margin-bottom: 20px;
+}
+.view-news-feeds {
+.views-col {
+width: 100% !important;
+}
+.more-link {margin-top: 20px;}
+.news_description_box .description_texts, .news_description_box .news_title {
+height: auto !important;
+margin-bottom: 5px;
+}
+}
+#content #block-contactblock, #content #block-contactaddress {
+ width: 100%;
+ padding: 0px 15px;
+ float: none;
+ margin-bottom: 10px;
+}
+.navbar .logo {
+padding-left: 0px;
+}
+.main-content {
+margin: 0px 5px;
+}
+.user-pass, .user-register-form, .user-login-form {
+width: 95%;
+margin:auto;
+}
+#block-twittersocialmediafeedsblock, #block-views-block-currency-news-block-1 {
+float: none;
+width: 100%;
+}
+.page-footer {
+.container{max-width:100% !important;}
+.footer_copyright{text-align:center;margin-bottom:20px;}
+.footer_menu{padding: 15px 0px 0px 0px;}
+.footer_social {padding:0px;}
+#block-mainnavigation-2{float:none;margin: auto;width: 290px;}
+ul.menu{float:none !important;}
+ul.menu a{font-size:15px !important;}
+#block-social {width: 296px !important;}
+li .fa {font-size: 21px !important;padding: 0px 18px !important;}
+}
+.pager-nav {
+ul li.pager__item{margin-right:4px;}
+ul li.pager__item span{padding:0px;font-size:11px;}
+}
+}
+@media only screen and (min-width:768px) and (max-width:979px) {
+.view-news-feeds{
+.news_description_box .description_texts, .news_description_box .news_title {
+height: auto !important;
+margin-bottom: 10px;
+}
+}
+.page-header.container .row {
+ width: 100%;
+ margin: 0;
+}
+.view-currency-listing {
+ width: 100%;
+}
+.view-currency-listing {
+.table tr th.views-field.views-field-nothing,.table tr td.views-field.views-field-nothing {width: 150px;max-width: 150px;}
+}
+.page-footer{
+.footer_menu.col-sm-4,.footer_copyright.col-sm-4{padding:0px;}
+#block-social {width: 260px !important;}
+li .fa{font-size: 20px !important;padding: 0px 15px !important;}
+ul.menu li a {font-size: 14px !important;line-height: 25px !important;padding: 0px 7px !important;}
+}
+}
+
+/**** Mobile Design Closed ****/
+
+/**** Ipad Design Started ****/
+
+ @media only screen and (min-width:980px) and (max-width:1174px) {
+.view-currency-listing {
+ width: 100%;
+}
+.page-header.container .row {
+ width: 100%;
+ margin: 0;
+}
+.page-footer{
+#block-social {width: 312px !important;}
+li .fa{font-size: 24px !important;padding: 0px 18px !important;}
+ul.menu li a {font-size: 15px !important;}
+}
+}
+ @media only screen and (min-width:768px) and (max-width:1279px) {
+ .view-currency-listing {
+.views-field-field-high,.views-field-field-low,
+.views-field-field-market-cap {
+ display: none;
+}
+}
+}
+ @media only screen and (min-width:768px) and (max-width:1200px) {
+.container {
+ width: 95% !important;
+}
+
+#block-currencydetail .details-panel-item--price__value span{padding: 5px;font-size:18px;line-height:26px;}
+}
+/**** Ipad Design Closed ****/

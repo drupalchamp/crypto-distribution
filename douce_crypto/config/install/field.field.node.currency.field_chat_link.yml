@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chat_link
+    - node.type.currency
+  module:
+    - link
+id: node.currency.field_chat_link
+field_name: field_chat_link
+entity_type: node
+bundle: currency
+label: 'Currency Chat Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

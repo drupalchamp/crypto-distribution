@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.fiat_currency.field_symbol
+    - node.type.fiat_currency
+  module:
+    - user
+id: node.fiat_currency.default
+targetEntityType: node
+bundle: fiat_currency
+mode: default
+content:
+  field_symbol:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

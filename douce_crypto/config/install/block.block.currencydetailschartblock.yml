@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - crypto_chart
+    - node
+  theme:
+    - crypto
+id: currencydetailschartblock
+theme: crypto
+region: content
+weight: -5
+provider: null
+plugin: currency_details_chart_block
+settings:
+  id: currency_details_chart_block
+  label: 'Currency Details Chart Block'
+  provider: crypto_chart
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      currency: currency
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - crypto
+id: mainnavigation_2
+theme: crypto
+region: footer_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Usefull links'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

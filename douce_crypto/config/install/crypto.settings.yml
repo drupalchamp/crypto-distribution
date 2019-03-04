@@ -1,0 +1,88 @@
+schemas:
+  bootstrap: 8000
+  crypto: 8000
+body_background: '#ffffff'
+header_width: '95'
+header_backgound: '#0a1325'
+header_text_color: '#ffffff'
+header_link_text_color: '#ffffff'
+header_link_hover_active_color: '#ff9900'
+main_container_width: '95'
+footer_width: '95'
+footer_background: '#0a1325'
+footer_text_color: '#ffffff'
+footer_link_text_color: '#ff9900'
+footer_link_hover_active_color: '#ff9900'
+_core:
+  default_config_hash: ANBeZmAjQ2fhS0N3j6wdwA_v-2D9xj021VQaFKPlNXU
+favicon:
+  mimetype: image/jpeg
+  path: 'public://favicon_1.jpg'
+  url: 'http://development.drupalchamp.org/profiles/douce_crypto/themes/crypto/favicon.ico'
+  use_default: true
+region_wells:
+  logo_area: ''
+  menu_area: ''
+  header_title: ''
+  sidebar_first: ''
+  content: ''
+  sidebar_second: ''
+  footer_copyright: ''
+  footer_menu: ''
+  footer_social: ''
+table_responsive: '-1'
+table: ''
+logo:
+  path: 'public://logo1.png'
+  url: ''
+  use_default: true
+link_color: '#ff9900'
+link_hover_active_color: ''
+link_button_text_color: '#ffffff'
+link_button_background_color: '#660000'
+link_button_text_hover_active_color: '#ff00ff'
+link_button_background_hover_active_color: '#cc4125'
+button_text_color: '#ffffff'
+button_background_color: '#f60486'
+button_text_hover_active_color: '#ffffff'
+button_background_hover_active_color: '#072055'
+heading_color: '#000000'
+h1_color: '#000000'
+h1_font_size: '24'
+h1_lineheight: '30'
+h2_color: ''
+h2_font_size: ''
+h2_lineheight: ''
+h3_color: ''
+h3_font_size: ''
+h3_lineheight: ''
+h4_color: ''
+h4_font_size: ''
+h4_lineheight: ''
+h5_color: ''
+h5_font_size: ''
+h5_lineheight: ''
+h6_color: ''
+h6_font_size: ''
+h6_lineheight: ''
+paragraph_color: '#000000'
+paragraph_font_size: '15'
+paragraph_lineheight: '25'
+body_color: '#000000'
+body_font_size: '14'
+body_line_height: '28'
+link_button_font_size: '20'
+link_button_line_height: '30'
+morelink: ''
+button_font_size: '14'
+button_line_height: '28'
+page_heading_color: '#434343'
+page_heading_font_size: '35'
+page_heading_line_height: '45'
+page_heading_background_color: '#f5f5f2'
+breadcrumb_home: 1
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true

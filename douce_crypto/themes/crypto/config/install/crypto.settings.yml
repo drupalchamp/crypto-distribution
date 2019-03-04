@@ -1,0 +1,67 @@
+# Default settings should not be located here. This file is only used to
+# initially install a theme's "settings".
+#
+# Instead, the Drupal Bootstrap base theme uses the @BootstrapSetting
+# annotated plugin discovery process. This ensures that sub-theme settings are
+# inherited from base themes themes properly and to determine when a setting
+# should be saved to config as "overridden".
+#
+# @see \Drupal\bootstrap\Plugin\SettingBase
+# @see \Drupal\bootstrap\Plugin\SettingInterface
+# @see \Drupal\bootstrap\Plugin\SettingManager
+# @see \Drupal\bootstrap\Plugin\Form\SystemThemeSettings
+# @see \Drupal\bootstrap\ThemeSettings
+
+# This file cannot be empty, so install an initial empty array for "schemas".
+# @see https://www.drupal.org/node/2813829
+schemas: []
+
+body_color: ''
+body_font_size: ''
+body_line_height: ''
+body_background: '#f5f5f5'
+header_width: '1170'
+header_backgound: '#f5f5f5'
+header_text_color: '#f5f5f5'
+header_link_text_color: '#f5f5f5'
+header_link_hover_active_color: '#f5f5f5'
+main_container_width: '1170'
+footer_width: '1170'
+footer_background: '#f5f5f5'
+footer_text_color: '#f5f5f5'
+footer_link_text_color: '#f5f5f5'
+footer_link_hover_active_color: '#f5f5f5'
+link_color: ''
+link_hover_active_color: ''
+link_button_font_size: ''
+link_button_line_height: ''
+link_button_text_color: ''
+link_button_background_color: ''
+link_button_text_hover_active_color: ''
+link_button_background_hover_active_color: ''
+button_font_size: ''
+button_line_height: ''
+button_text_color: ''
+button_background_color: ''
+button_text_hover_active_color: ''
+button_background_hover_active_color: ''
+page_heading_color: ''
+page_heading_font_size: ''
+page_heading_line_height: ''
+page_heading_background_color: ''
+heading_color: ''
+h1_font_size: ''
+h1_lineheight: ''
+h2_font_size: ''
+h2_lineheight: ''
+h3_font_size: ''
+h3_lineheight: ''
+h4_font_size: ''
+h4_lineheight: ''
+h5_font_size: ''
+h5_lineheight: ''
+h6_font_size: ''
+h6_lineheight: ''
+paragraph_color: ''
+paragraph_font_size: ''
+paragraph_lineheight: ''

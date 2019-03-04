@@ -1,0 +1,260 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/currencies\/mobilego?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/currency"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_currency_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-02\/mgo.png"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1080
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a52b412e-8bd7-4a71-aab9-6136437a7da3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1207
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "currency"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-02-16T05:09:17+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_currency_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-02\/mgo.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0585e7bc-d24c-45ff-9a3d-fd2367231176"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4b58f94d-e8ea-45c0-8acc-9c312eb21077"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "MobileGo",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-02-16T05:09:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-02-20T12:01:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/currencies\/mobilego",
+            "pid": 120,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_announcement_link": [
+        {
+            "uri": "https:\/\/bitcointalk.org\/index.php?topic=5043146",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_chat_link": [
+        {
+            "uri": "https:\/\/discord.gg\/pXHfbpU",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "https:\/\/t.me\/mobilegochat",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_explorer": [
+        {
+            "uri": "https:\/\/etherscan.io\/token\/0x40395044Ac3c0C57051906dA938B54BD6557F212",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "https:\/\/ethplorer.io\/address\/0x40395044Ac3c0C57051906dA938B54BD6557F212",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_technical_doc": [
+        {
+            "uri": "https:\/\/mobilego.io\/whatepaper\/MobileGo-Whitepaper.pdf",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_curreny_message_board": [
+        {
+            "uri": "https:\/\/medium.com\/@mobilegoofficial",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_symbol": [
+        {
+            "value": "MGO",
+            "lang": "en"
+        }
+    ],
+    "field_twitter_link": [
+        {
+            "uri": "https:\/\/twitter.com\/Mobilegooff",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_website_link": [
+        {
+            "uri": "https:\/\/mobilego.io\/",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        }
+    ]
+}

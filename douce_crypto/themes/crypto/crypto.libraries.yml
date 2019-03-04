@@ -1,0 +1,19 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}
+      css/themes.css: {}
+      css/responsive.css: {}
+
+spectrum:
+  version: VERSION
+  js:
+    js/spectrum_library.js: {}
+    js/spectrum.js: {}
+    js/simple.js: {}
+  dependencies:
+    - core/jquery
+  css:
+    theme:
+      css/spectrum.css: {}

@@ -1,0 +1,65 @@
+<?php
+
+/**
+ * @file
+ * crypto_global.module
+ */
+
+use Drupal\views\ViewExecutable;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_page_attachments().
+ */
+function crypto_global_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'crypto_global/highcharts';
+  $attachments['#attached']['library'][] = 'crypto_global/crypto_global';
+}
+
+/**
+ * Implements hook_theme().
+ */
+function crypto_global_theme() {
+  return [
+    'currency_detail' => [
+      'template' => 'currency_detail',
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_form_node_form_alter().
+ */
+function crypto_global_form_node_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  // Add library in landing page node form.
+  if ($form_id == 'node_landing_page_form' || $form_id == 'node_landing_page_edit_form') {
+    $form['#attached']['library'][] = 'crypto/spectrum';
+  }
+}
+
+/**
+ * Implements hook_views_pre_view().
+ */
+function crypto_global_views_pre_view(ViewExecutable $view, $display_id, array &$args) {
+  if ($view->id() == 'currency_news' && $view->getDisplay()->display['id'] == 'block_1') {
+    $filters = $view->display_handler->getOption('filters');
+    if ($filters['combine']) {
+      $current_path = \Drupal::service('path.current')->getPath();
+      $path_args = explode('/', $current_path);
+      if (isset($path_args[3]) && $path_args[3] == 'social' && !empty($path_args[2]) && $path_args[1] == 'currencies') {
+        unset($path_args[3]);
+        $path_alias = implode('/', $path_args);
+        $path = \Drupal::service('path.alias_manager')->getPathByAlias($path_alias);
+        if (preg_match('/node\/(\d+)/', $path, $matches)) {
+          $currency_nid = $matches[1];
+          $title = \Drupal::database()->query("SELECT title FROM {node_field_data} WHERE nid = :currency_nid", [':currency_nid' => $currency_nid])->fetchField();
+          $filters['combine']['value'] = $title;
+          $view->display_handler->overrideOption('filters', $filters);
+        }
+      }
+    }
+  }
+}

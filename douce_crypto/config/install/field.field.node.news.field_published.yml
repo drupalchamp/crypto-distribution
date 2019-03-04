@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_published
+    - node.type.news
+id: node.news.field_published
+field_name: field_published
+entity_type: node
+bundle: news
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1549974785
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

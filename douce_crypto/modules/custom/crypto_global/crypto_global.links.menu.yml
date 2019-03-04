@@ -1,0 +1,7 @@
+crypto_global.settings:
+  title: 'Crypto Settings'
+  route_name: crypto_global.settings
+  description: 'Crypto Settings'
+  parent: system.admin
+  weight: 100
+

@@ -1,0 +1,863 @@
+/* line 2, ../sass/themes.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Play', sans-serif;
+}
+
+/* line 9, ../sass/themes.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 11, ../sass/themes.scss */
+tr.odd {
+  background-color: none;
+}
+
+/**** Page Loader Area Start ****/
+/* line 15, ../sass/themes.scss */
+.se-pre-con.loaded {
+  display: none;
+}
+
+/* line 17, ../sass/themes.scss */
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(images/ajax-loader.gif) center no-repeat #000;
+  opacity: .9;
+}
+
+/**** Page Loader Area Closed ****/
+/* line 29, ../sass/themes.scss */
+.path-innerpage #navbar-header .row {
+  margin: 0px;
+}
+
+/* line 31, ../sass/themes.scss */
+.pagination {
+  margin: 10px 0 0px;
+}
+
+/* line 33, ../sass/themes.scss */
+.landing_page_banner {
+  width: 100%;
+  position: relative;
+  padding: 8% 0px;
+}
+
+/* line 39, ../sass/themes.scss */
+.currency_price_chart {
+  width: 100%;
+  position: relative;
+  padding: 4% 0px 6%;
+}
+
+/* line 45, ../sass/themes.scss */
+.path-exchanges #midcontent_area .table-responsive {
+  width: 100%;
+  padding-top: 10px;
+}
+
+/**** Top Currency Area Start ****/
+/* line 48, ../sass/themes.scss */
+#block-views-block-top-currencies-block-1 {
+  width: 1170px;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+/* line 55, ../sass/themes.scss */
+.view-top-currencies row {
+  margin: auto;
+}
+/* line 59, ../sass/themes.scss */
+.view-top-currencies .currency_card .card-body {
+  overflow: hidden;
+  background: #fff;
+}
+/* line 64, ../sass/themes.scss */
+.view-top-currencies .row.header_area {
+  background: #072055;
+  color: #ffffff;
+}
+/* line 69, ../sass/themes.scss */
+.view-top-currencies .currency_card .row {
+  padding: 5px 10px;
+  margin: 0px;
+  color: #ccc;
+}
+/* line 75, ../sass/themes.scss */
+.view-top-currencies .row .field-label {
+  color: #000;
+  font-weight: 700;
+}
+/* line 80, ../sass/themes.scss */
+.view-top-currencies h4.card-title {
+  font-weight: 700;
+  margin: 4px 0px 2px 0px;
+}
+/* line 85, ../sass/themes.scss */
+.view-top-currencies .col-md-3 {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 24% !important;
+  margin-right: 1.3%;
+}
+/* line 92, ../sass/themes.scss */
+.view-top-currencies .col-md-3.col-4 {
+  margin-right: 0px;
+}
+/* line 94, ../sass/themes.scss */
+.view-top-currencies .top_currencies {
+  border: 1px solid #E0E6EF;
+  overflow: hidden;
+}
+/* line 99, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-heading {
+  overflow: hidden;
+  width: 100%;
+  padding: 5px 5px 5px;
+}
+/* line 105, ../sass/themes.scss */
+.view-top-currencies .top_currencies .down {
+  color: #f00;
+}
+/* line 107, ../sass/themes.scss */
+.view-top-currencies .top_currencies .up {
+  color: #096b23;
+}
+/* line 109, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-heading .pull-right {
+  font-size: 12px;
+  line-height: 20px;
+}
+/* line 114, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-heading .pull-right span {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+}
+/* line 120, ../sass/themes.scss */
+.view-top-currencies .top_currencies .pull-left {
+  color: #f70086;
+}
+/* line 122, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-body {
+  padding: 0px;
+}
+/* line 124, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-body .trend-values {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 129, ../sass/themes.scss */
+.view-top-currencies .top_currencies .trend-values .pull-left {
+  width: 60%;
+  margin-left: 5px;
+}
+/* line 134, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-body .trend-values a.pull-right {
+  padding: 2px 10px;
+  font-size: 12px;
+  line-height: 20px;
+  border-radius: 3px;
+  margin-right: 5px;
+  border: 1px solid #096b23;
+}
+/* line 143, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-footer {
+  margin-bottom: 0px;
+  background: #096b23;
+  color: #fff;
+  padding: 0px;
+  border-radius: 0px;
+}
+/* line 151, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-footer table {
+  margin-bottom: 0px;
+}
+/* line 155, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-footer td {
+  border: 0px;
+}
+/* line 157, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-footer .label-title {
+  color: #ff6600;
+  text-align: center;
+}
+/* line 162, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-footer .label-title a {
+  font-weight: bold;
+  color: #fff;
+}
+/* line 167, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-footer .label-low {
+  text-align: right;
+}
+/* line 169, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-footer .up {
+  color: #42f492;
+}
+/* line 171, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-footer td span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+}
+/* line 176, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-footer td:nth-child(1) {
+  text-align: left;
+}
+/* line 179, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-footer td:nth-child(2) {
+  text-align: center;
+}
+/* line 182, ../sass/themes.scss */
+.view-top-currencies .top_currencies .panel-footer td:nth-child(3) {
+  text-align: right;
+}
+
+/**** Top Currency Area Closed ****/
+/* line 191, ../sass/themes.scss */
+#block-addtoanybuttons {
+  position: absolute;
+  right: 10px;
+  z-index: 1;
+}
+
+/**** Paragraph Area Start ****/
+/* line 198, ../sass/themes.scss */
+.paragraph_color_description h1, .paragraph_color_description h2, .paragraph_color_description h3, .paragraph_color_description h4, .paragraph_color_description h5, .paragraph_color_description h6 {
+  color: inherit;
+}
+/* line 202, ../sass/themes.scss */
+.paragraph_color_description p {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/**** Paragraph Area Closed ****/
+/* line 211, ../sass/themes.scss */
+.form-control {
+  height: auto;
+  padding: 10px 12px;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+/* line 218, ../sass/themes.scss */
+textarea.form-control {
+  height: 120px;
+  resize: none;
+  box-shadow: none;
+  min-height: auto;
+}
+
+/**** Contact Us Area Start ****/
+/* line 226, ../sass/themes.scss */
+#content #block-contactaddress {
+  width: 50%;
+  padding-right: 25px;
+  float: left;
+}
+
+/* line 232, ../sass/themes.scss */
+#content #block-contactblock {
+  width: 50%;
+  padding: 25px;
+  float: right;
+}
+
+/* line 238, ../sass/themes.scss */
+.webform-submission-contact-us-form label, .webform-submission-contact-us-form .captcha .help-block {
+  display: none;
+}
+/* line 242, ../sass/themes.scss */
+.webform-submission-contact-us-form .captcha {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+/* line 248, ../sass/themes.scss */
+.webform-submission-contact-us-form img.img-responsive {
+  float: left;
+}
+/* line 250, ../sass/themes.scss */
+.webform-submission-contact-us-form .form-item-captcha-response {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+/* line 256, ../sass/themes.scss */
+.webform-submission-contact-us-form .form-actions {
+  width: 100%;
+  overflow: hidden;
+}
+
+/**** Contact Us Area Closed ****/
+/**** Currency Listing Area Start ****/
+/* line 266, ../sass/themes.scss */
+.view-currency-listing {
+  padding: 10px 0px;
+}
+
+/* line 270, ../sass/themes.scss */
+.view-currency-listing .table {
+  border: 1px solid #ccc;
+}
+/* line 273, ../sass/themes.scss */
+.view-currency-listing th.views-field {
+  color: #000;
+  border-bottom: 1px solid #ff9900;
+  text-transform: uppercase;
+  padding-top: 15px;
+  text-align: center;
+}
+/* line 280, ../sass/themes.scss */
+.view-currency-listing tr:nth-of-type(2n+1), .view-currency-listing tr {
+  background: #fff;
+}
+/* line 284, ../sass/themes.scss */
+.view-currency-listing th.views-field-nothing-1,
+.view-currency-listing td.views-field-nothing-1 {
+  width: 220px;
+}
+/* line 288, ../sass/themes.scss */
+.view-currency-listing th.views-field.views-field-nothing,
+.view-currency-listing td.views-field.views-field-nothing {
+  text-align: inherit;
+  width: 205px;
+}
+/* line 294, ../sass/themes.scss */
+.view-currency-listing td.views-field {
+  vertical-align: middle;
+  text-align: center;
+}
+/* line 299, ../sass/themes.scss */
+.view-currency-listing .currency_details .currency_symbol {
+  color: #000;
+  font-weight: bold;
+}
+/* line 303, ../sass/themes.scss */
+.view-currency-listing .currency_details .currency_symbol.responsive {
+  display: none;
+}
+/* line 306, ../sass/themes.scss */
+.view-currency-listing .currency_details .currency_title a {
+  color: #999999;
+}
+/* line 308, ../sass/themes.scss */
+.view-currency-listing .currency_details a img {
+  float: left;
+  margin-right: 10px;
+  padding-top: 4px;
+}
+/* line 313, ../sass/themes.scss */
+.view-currency-listing .currency_details .currency_name {
+  overflow: hidden;
+}
+/* line 315, ../sass/themes.scss */
+.view-currency-listing .table .views-field-field-volume {
+  width: 210px;
+}
+/* line 316, ../sass/themes.scss */
+.view-currency-listing .more-link {
+  text-align: center;
+}
+/* line 317, ../sass/themes.scss */
+.view-currency-listing .more-link a {
+  padding: 8px 25px;
+  font-size: 16px;
+  color: #000;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+/* line 318, ../sass/themes.scss */
+.view-currency-listing .more-link a:hover {
+  background: #ddd;
+}
+
+/**** Currency Listing Area Closed ****/
+/**** Currency Detail Area Start ****/
+/* line 324, ../sass/themes.scss */
+#block-currencydetail .details-panel-item--header {
+  margin-bottom: 10px;
+  padding-left: 0px;
+}
+/* line 328, ../sass/themes.scss */
+#block-currencydetail .details-panel.col-sm-3 {
+  padding-left: 0px;
+}
+/* line 329, ../sass/themes.scss */
+#block-currencydetail .details-panel-item--price {
+  padding-right: 0px;
+}
+/* line 332, ../sass/themes.scss */
+#block-currencydetail #quote_price .date_time {
+  font-size: 13px;
+  line-height: 18px;
+  color: #2e0d00;
+  text-align: center;
+}
+/* line 338, ../sass/themes.scss */
+#block-currencydetail .details-panel-item--name {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+  line-height: 25px;
+}
+/* line 344, ../sass/themes.scss */
+#block-currencydetail text-bold {
+  font-weight: 600;
+}
+/* line 345, ../sass/themes.scss */
+#block-currencydetail .text-gray {
+  color: rgba(39, 52, 64, 0.5);
+}
+/* line 346, ../sass/themes.scss */
+#block-currencydetail .text-large {
+  font-size: 17px;
+  line-height: inherit;
+  font-weight: 500;
+}
+/* line 351, ../sass/themes.scss */
+#block-currencydetail .text-semi-bold {
+  font-weight: 500;
+}
+/* line 352, ../sass/themes.scss */
+#block-currencydetail #quote_price {
+  color: #000;
+  overflow: hidden;
+}
+/* line 356, ../sass/themes.scss */
+#block-currencydetail .details-panel-header img {
+  float: left;
+  margin-right: 15px;
+}
+/* line 360, ../sass/themes.scss */
+#block-currencydetail .details-panel-item--price__value span {
+  border-radius: 4px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0 0 5px;
+  padding: 5px 15px;
+  background: #072055;
+  display: block;
+  text-align: center;
+}
+/* line 372, ../sass/themes.scss */
+#block-currencydetail .details-panel-item--price__value span.up {
+  background: #009e73;
+  border-color: #009e73;
+}
+/* line 376, ../sass/themes.scss */
+#block-currencydetail .details-panel-item--price__value span.down {
+  background: #d94040;
+  border-color: #d94040;
+}
+/* line 380, ../sass/themes.scss */
+#block-currencydetail .details-panel-item--today-details .table tr th {
+  background: #fff;
+  padding: 0px 0px 9px 0px;
+  font-size: inherit;
+}
+/* line 385, ../sass/themes.scss */
+#block-currencydetail .details-panel-item--marketcap-stats {
+  background: #f5f5f2;
+  padding: 10px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+/* line 392, ../sass/themes.scss */
+#block-currencydetail .details-panel-item--marketcap-stats .coin-summary-item {
+  width: 33.3%;
+  float: left;
+}
+/* line 396, ../sass/themes.scss */
+#block-currencydetail .details-panel-item--marketcap-stats .coin-summary-item-header {
+  padding: 12px 12px 11px;
+  border-top: none;
+  border-bottom: 1px solid #e1e5ea;
+  border-left: none;
+  border-right: none;
+  font-size: 16px;
+  font-weight: 700;
+  white-space: nowrap;
+  margin-bottom: 12px;
+}
+/* line 407, ../sass/themes.scss */
+#block-currencydetail .details-panel-item--marketcap-stats .coin-summary-item-detail {
+  padding: 0 12px;
+  color: rgba(23, 24, 27, 0.85);
+}
+/* line 413, ../sass/themes.scss */
+#block-currencydetail .table tr th {
+  color: #000;
+  padding: 11px 0px;
+  border-bottom: 1px solid #072055;
+  font-size: 15px;
+  background: #f5f5f2;
+  text-transform: uppercase;
+}
+/* line 421, ../sass/themes.scss */
+#block-currencydetail .list-unstyled li .fas {
+  margin-right: 6px;
+  line-height: 30px;
+}
+/* line 425, ../sass/themes.scss */
+#block-currencydetail .details-panel-item--buy-social-buttons {
+  float: right;
+}
+/* line 426, ../sass/themes.scss */
+#block-currencydetail .currency-detail-chart-header {
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 25px;
+}
+/* line 431, ../sass/themes.scss */
+#block-currencydetail .list-unstyled li .badge {
+  padding: 4px 10px;
+}
+/* line 432, ../sass/themes.scss */
+#block-currencydetail .down {
+  color: #f00;
+}
+/* line 433, ../sass/themes.scss */
+#block-currencydetail .up {
+  color: #096b23;
+}
+
+/**** Currency Detail Area Closed ****/
+/* line 438, ../sass/themes.scss */
+.landing_page.container {
+  padding: 0px;
+}
+
+/* line 439, ../sass/themes.scss */
+.currencies_detail_area_chart_wrapper {
+  overflow: hidden;
+  padding: 15px;
+}
+
+/* line 444, ../sass/themes.scss */
+.currencies_detail_area_chart_wrapper .currencies_area_chart_container {
+  border: 1px solid #E0E6EF;
+}
+
+/* line 446, ../sass/themes.scss */
+#block-twittersocialmediafeedsblock {
+  width: 49%;
+  max-height: 600px;
+  overflow: auto;
+  display: inline-block;
+}
+
+/* line 453, ../sass/themes.scss */
+.highcharts-root {
+  width: 100%;
+}
+
+/* line 455, ../sass/themes.scss */
+#block-views-block-currency-news-block-1 .views-row .views-col,
+.view-news-feeds .views-row .views-col {
+  width: 49%;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  background: #f9f8f8;
+  padding: 15px;
+  border-right: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+/**** Currency News Block Started ****/
+/* line 468, ../sass/themes.scss */
+#block-views-block-news-feeds-block-1 {
+  margin: 10px 0px;
+}
+
+/* line 469, ../sass/themes.scss */
+#block-views-block-news-feeds-block-1 .block-title {
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+/* line 475, ../sass/themes.scss */
+#block-views-block-news-feeds-block-1 .block-title:after {
+  background: #424242 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 5px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 105px;
+}
+
+/* line 486, ../sass/themes.scss */
+#block-views-block-currency-news-block-1 {
+  width: 49%;
+  float: right;
+  display: inline-block;
+}
+
+/* line 491, ../sass/themes.scss */
+#block-views-block-currency-news-block-1 .views-col {
+  width: 100%;
+}
+/* line 495, ../sass/themes.scss */
+#block-views-block-currency-news-block-1 .description_texts {
+  line-height: 25px;
+}
+/* line 496, ../sass/themes.scss */
+#block-views-block-currency-news-block-1 .news_description_box {
+  width: 74%;
+  float: left;
+  padding-left: 2%;
+}
+/* line 501, ../sass/themes.scss */
+#block-views-block-currency-news-block-1 .news_title a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 26px;
+  display: block;
+}
+/* line 509, ../sass/themes.scss */
+#block-views-block-currency-news-block-1 .image-box {
+  width: 26%;
+  float: left;
+  padding: 0px;
+}
+/* line 514, ../sass/themes.scss */
+#block-views-block-currency-news-block-1 .image-box img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+/**** Currency News Block Closed ****/
+/* line 519, ../sass/themes.scss */
+#history_wrapper .table-responsive {
+  width: 100%;
+}
+
+/**** News Feed Area Start ****/
+/* line 523, ../sass/themes.scss */
+.view-news-feeds .views-row {
+  width: 100%;
+  overflow: hidden;
+}
+/* line 528, ../sass/themes.scss */
+.view-news-feeds .views-col.col-2 {
+  margin-right: 0px;
+}
+/* line 530, ../sass/themes.scss */
+.view-news-feeds .news_listing {
+  padding: 0px;
+}
+/* line 532, ../sass/themes.scss */
+.view-news-feeds .image-box {
+  width: 26%;
+  float: left;
+  padding: 0px;
+}
+/* line 538, ../sass/themes.scss */
+.view-news-feeds .image-box img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+/* line 540, ../sass/themes.scss */
+.view-news-feeds .news_description_box {
+  width: 74%;
+  float: left;
+  padding-left: 2%;
+}
+/* line 546, ../sass/themes.scss */
+.view-news-feeds .description_texts {
+  line-height: 25px;
+}
+/* line 548, ../sass/themes.scss */
+.view-news-feeds .news_title a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 26px;
+  display: block;
+}
+/* line 557, ../sass/themes.scss */
+.view-news-feeds author_publish_texts {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+/* line 563, ../sass/themes.scss */
+.view-news-feeds .author_publish_texts ul,
+.view-news-feeds .author_publish_texts ul li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  list-style-image: none;
+}
+/* line 571, ../sass/themes.scss */
+.view-news-feeds ul li {
+  float: left;
+  margin-right: 10px;
+  font-size: 11px;
+  line-height: 22px;
+}
+/* line 577, ../sass/themes.scss */
+.view-news-feeds .more-link {
+  text-align: center;
+}
+/* line 578, ../sass/themes.scss */
+.view-news-feeds .more-link a {
+  padding: 8px 25px;
+  font-size: 16px;
+  color: #000;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+/* line 579, ../sass/themes.scss */
+.view-news-feeds .more-link a:hover {
+  background: #ddd;
+}
+
+/**** News Feed Area Closed ****/
+/**** History Filter Start ****/
+/* line 585, ../sass/themes.scss */
+#historyfilter_wrapper #historyfilter {
+  cursor: pointer;
+  float: right;
+}
+/* line 590, ../sass/themes.scss */
+#historyfilter_wrapper .table-responsive {
+  width: 100%;
+  display: block;
+}
+
+/* line 596, ../sass/themes.scss */
+.daterangepicker.show-ranges.opensright.show-calendar {
+  right: 85px !important;
+  left: auto !important;
+}
+
+/* line 600, ../sass/themes.scss */
+.daterangepicker.opensright::before {
+  right: 9px;
+}
+
+/* line 604, ../sass/themes.scss */
+.daterangepicker.opensright:after {
+  right: 10px !important;
+}
+
+/**** History Filter Closed ****/
+/**** Curency Details Area Started ****/
+/* line 609, ../sass/themes.scss */
+.currency-details .series-tt {
+  min-height: 50px;
+  width: 16%;
+  float: left;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+/* line 616, ../sass/themes.scss */
+.currency-details .series-tt:nth-child(1) {
+  border-left: 1px solid #ff6600;
+}
+/* line 619, ../sass/themes.scss */
+.currency-details .series-tt:nth-child(2) {
+  border-left: 1px solid #2aade4;
+}
+/* line 622, ../sass/themes.scss */
+.currency-details .series-tt:nth-child(3) {
+  border-left: 1px solid #ffdb00;
+}
+/* line 625, ../sass/themes.scss */
+.currency-details .series-tt:nth-child(4) {
+  border-left: 1px solid #b0d237;
+}
+/* line 628, ../sass/themes.scss */
+.currency-details .series-tt:nth-child(5) {
+  border-left: 1px solid #42608c;
+}
+/* line 631, ../sass/themes.scss */
+.currency-details .series-tt:nth-child(6) {
+  border-left: 1px solid #6fcdcd;
+}
+/* line 634, ../sass/themes.scss */
+.currency-details .series-tt .text-left a, .currency-details .series-tt:nth-child(1) p span {
+  color: #ff6600;
+}
+/* line 638, ../sass/themes.scss */
+.currency-details .series-tt p {
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+}
+/* line 643, ../sass/themes.scss */
+.currency-details .series-tt span {
+  width: 100%;
+  font-size: 12px;
+  overflow-wrap: break-word;
+  display: block;
+}
+
+/**** Curency Details Area Closed ****/
+/* line 652, ../sass/themes.scss */
+.node-contact-us .midcontent .contextual-region {
+  overflow: hidden;
+}
+
+/**** Footer Design Start ****/
+/* line 655, ../sass/themes.scss */
+.page-footer .footer {
+  padding: 15px 0px;
+  border: none;
+  margin-top: 0px;
+}
+/* line 657, ../sass/themes.scss */
+.page-footer .footer ul.menu {
+  float: right;
+}
+/* line 660, ../sass/themes.scss */
+.page-footer .footer ul.menu li a {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0px 10px;
+}
+/* line 665, ../sass/themes.scss */
+.page-footer .footer .footer_social {
+  padding-left: 0px;
+}
+/* line 666, ../sass/themes.scss */
+.page-footer .footer #block-social {
+  width: 345px;
+  margin: auto;
+}
+/* line 667, ../sass/themes.scss */
+.page-footer .footer li .fa {
+  font-size: 26px;
+  padding: 0px 20px;
+}
+
+/**** Footer Design Closed ****/

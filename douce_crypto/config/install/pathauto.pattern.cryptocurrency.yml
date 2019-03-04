@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: cryptocurrency
+label: Cryptocurrency
+type: 'canonical_entities:node'
+pattern: 'currencies/[node:title]'
+selection_criteria:
+  d2b2dd11-fb3b-426f-aa59-4f6db0984dac:
+    id: node_type
+    bundles:
+      currency: currency
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d2b2dd11-fb3b-426f-aa59-4f6db0984dac
+selection_logic: and
+weight: -5
+relationships: {  }

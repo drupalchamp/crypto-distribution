@@ -1,0 +1,249 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/1415?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/markets"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/field_base_currency": [
+            {
+                "href": "http:\/\/default\/currencies\/ratecoin?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/field_target_currency": [
+            {
+                "href": "http:\/\/default\/node\/4?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1415
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4470d1e5-e969-48eb-a0b3-9417128e269b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1542
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "markets"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-02-18T12:03:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/field_base_currency": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/currencies\/ratecoin?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/currency"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36c17ab6-a119-4112-a9c2-6e83592469a8"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/field_target_currency": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/fiat_currency"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "21ffc901-4a16-45e2-89dd-a4d07bf8476d"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "XRA\/USD",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-02-18T12:03:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-01T05:34:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_ask": [
+        {
+            "value": 0.03
+        }
+    ],
+    "field_base_symbol": [
+        {
+            "value": "XRA"
+        }
+    ],
+    "field_bid": [
+        {
+            "value": 0.02
+        }
+    ],
+    "field_change_24h": [
+        {
+            "value": 0
+        }
+    ],
+    "field_change_24h_pct": [
+        {
+            "value": 0
+        }
+    ],
+    "field_circulating_supply": [
+        {
+            "value": 134555000
+        }
+    ],
+    "field_high": [
+        {
+            "value": 0.0173302
+        }
+    ],
+    "field_last": [
+        {
+            "value": 0.0167787
+        }
+    ],
+    "field_low": [
+        {
+            "value": 0.0156578
+        }
+    ],
+    "field_market_cap": [
+        {
+            "value": 2257650
+        }
+    ],
+    "field_open": [
+        {
+            "value": 0.0167787
+        }
+    ],
+    "field_target_symbol": [
+        {
+            "value": "USD"
+        }
+    ],
+    "field_volume": [
+        {
+            "value": 0
+        }
+    ]
+}

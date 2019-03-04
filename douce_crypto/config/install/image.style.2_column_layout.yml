@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 2_column_layout
+label: '2 Column Layout'
+effects:
+  5ddc5a95-6048-4288-96b7-5d20a13d59c8:
+    uuid: 5ddc5a95-6048-4288-96b7-5d20a13d59c8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 560
+      height: 375
+      anchor: center-center

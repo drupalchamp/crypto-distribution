@@ -1,0 +1,8 @@
+crypto_global.settings:
+  path: '/admin/crypto/settings'
+  defaults: 
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Crypto Settings'
+  requirements: 
+    _role: 'administrator'
+

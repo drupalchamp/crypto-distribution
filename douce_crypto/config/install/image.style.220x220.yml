@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 220x220
+label: 'Resize 220x220'
+effects:
+  23615d80-7ee3-483b-be60-95977efa8a5b:
+    uuid: 23615d80-7ee3-483b-be60-95977efa8a5b
+    id: image_resize
+    weight: 1
+    data:
+      width: 220
+      height: 220

@@ -1,0 +1,17 @@
+crypto_history:
+  version: VERSION
+  js:
+    js/moment.js: {}
+    js/daterangepicker.js: {}
+    js/crypto_history.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/drupal.dialog
+    - core/jquery.once
+  css:
+    theme:
+      css/daterangepicker.css: {}
+      css/crypto_history.css: {}

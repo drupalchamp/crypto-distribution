@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_target_currency
+    - node.type.fiat_currency
+    - node.type.markets
+id: node.markets.field_target_currency
+field_name: field_target_currency
+entity_type: node
+bundle: markets
+label: 'Exchange Target Currency'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      fiat_currency: fiat_currency
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: currency
+field_type: entity_reference

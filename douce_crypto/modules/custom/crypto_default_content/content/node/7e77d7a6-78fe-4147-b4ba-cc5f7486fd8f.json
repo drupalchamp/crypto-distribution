@@ -1,0 +1,267 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/currencies\/worldwide-asset-exchange?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/currency"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_currency_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-02\/wax.png"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1140
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7e77d7a6-78fe-4147-b4ba-cc5f7486fd8f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1267
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "currency"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-02-16T06:45:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_currency_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-02\/wax.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2f10b431-1bd5-472a-9517-5af0ff458b28"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4b58f94d-e8ea-45c0-8acc-9c312eb21077"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Worldwide Asset eXchange",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-02-16T06:45:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-02-20T11:23:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/currencies\/worldwide-asset-exchange",
+            "pid": 142,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_chat_link": [
+        {
+            "uri": "https:\/\/t.me\/wax_io",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "https:\/\/t.me\/waxtokenannoucements",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_explorer": [
+        {
+            "uri": "https:\/\/etherscan.io\/token\/0x39Bb259F66E1C59d5ABEF88375979b4D20D98022",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "https:\/\/ethplorer.io\/address\/0x39Bb259F66E1C59d5ABEF88375979b4D20D98022",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_source_code": [
+        {
+            "uri": "https:\/\/github.com\/waxio",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_technical_doc": [
+        {
+            "uri": "https:\/\/wax.io\/documents\/WAX_White_Paper.pdf?1514330404",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_curreny_message_board": [
+        {
+            "uri": "https:\/\/medium.com\/wax-io\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_reddit_link": [
+        {
+            "uri": "https:\/\/www.reddit.com\/r\/WAX_io\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_symbol": [
+        {
+            "value": "WAX",
+            "lang": "en"
+        }
+    ],
+    "field_twitter_link": [
+        {
+            "uri": "https:\/\/twitter.com\/wax_io",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_website_link": [
+        {
+            "uri": "https:\/\/wax.io\/",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        }
+    ]
+}

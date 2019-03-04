@@ -1,0 +1,69 @@
+twitter_widgets:
+  js:
+    https://platform.twitter.com/widgets.js: { type: external, attributes: { async: true, charset: utf-8} }
+
+crypto_chart:
+  version: VERSION
+  js:
+    js/crypto_chart.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/drupal.dialog
+    - core/jquery.once
+  css:
+    theme:
+      css/crypto_chart.css: {}
+
+currency_detail_chart:
+  version: VERSION
+  js:
+    js/currency_detail_chart.js: {}
+  dependencies:
+    - core/jquery
+
+price_graph:
+  version: VERSION
+  js:
+    js/price_graph.js: {}
+  dependencies:
+    - core/jquery
+
+currency_details_stream:
+  version: VERSION
+  js:
+    js/currency_details_stream.js: {}
+  dependencies:
+    - core/jquery
+
+angular_js_min:
+  version: 1.6.6
+  js:
+    https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js: { type: external, minified: true }
+
+jquery_min:
+  version: 3.2.1
+  js:
+     https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js: { type: external, minified: true }
+
+socket_io:
+  version: 1.7.2
+  js:
+     https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.2/socket.io.js: { type: external, minified: true }
+
+ccc_streamer_utilities:
+  version: VERSION
+  js:
+    js/ccc-streamer-utilities.js: {}
+
+currency_list_stream:
+  version: VERSION
+  js:
+    js/currency_list_stream.js: {}
+  dependencies:
+    - core/jquery
+  css:
+    theme:
+      css/currency_list_stream.css: {}

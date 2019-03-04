@@ -1,0 +1,262 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/currencies\/dai?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/currency"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_currency_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-02\/dai_0.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1368
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c727004c-4d85-4b7b-9414-625c4fa6d9b0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1495
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "currency"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-02-18T10:02:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_currency_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-02\/dai_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e48e204c-e1ae-4692-98b3-ff45b50b5a95"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4b58f94d-e8ea-45c0-8acc-9c312eb21077"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Dai",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-02-18T10:02:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-02-20T08:22:19+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/currencies\/dai",
+            "pid": 185,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_chat_link": [
+        {
+            "uri": "https:\/\/chat.makerdao.com\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_explorer": [
+        {
+            "uri": "https:\/\/etherscan.io\/token\/0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "https:\/\/ethplorer.io\/address\/0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_source_code": [
+        {
+            "uri": "https:\/\/github.com\/makerdao\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_technical_doc": [
+        {
+            "uri": "https:\/\/makerdao.com\/whitepaper\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_curreny_message_board": [
+        {
+            "uri": "https:\/\/medium.com\/@MakerDAO",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_reddit_link": [
+        {
+            "uri": "https:\/\/www.reddit.com\/r\/MakerDAO\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_symbol": [
+        {
+            "value": "DAI",
+            "lang": "en"
+        }
+    ],
+    "field_twitter_link": [
+        {
+            "uri": "https:\/\/twitter.com\/MakerDAO",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_website_link": [
+        {
+            "uri": "https:\/\/makerdao.com\/",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+crypto_global:
+  version: VERSION
+  js:
+    js/crypto-global.js: {}
+    https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js: { type: external, minified: true }
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/drupal.dialog
+    - core/jquery.once
+  css:
+    theme:
+      css/crypto-global.css: {}
+
+highcharts:
+  version: 6.1.4
+  js:
+    assets/highcharts/highcharts.js: {}
+    assets/highcharts/highstock.js: {}
+    assets/highcharts/multicolor_series.js: {}
+    assets/highcharts/exporting.js: {}

@@ -1,0 +1,7 @@
+crypto_api_key.api_key_settings:
+  title: 'Crypto API Key'
+  route_name: crypto_api_key.api_key_settings
+  description: 'Crypto API Key'
+  parent: crypto_global.settings
+  weight: 0
+

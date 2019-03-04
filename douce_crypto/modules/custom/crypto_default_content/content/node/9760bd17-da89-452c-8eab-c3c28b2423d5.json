@@ -1,0 +1,271 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/currencies\/bitcoin-cash?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/currency"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_currency_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-01\/bitcoin-cash-icon.png"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 9
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9760bd17-da89-452c-8eab-c3c28b2423d5"
+        }
+    ],
+    "vid": [
+        {
+            "value": 9
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "currency"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-01-26T10:16:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_currency_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-01\/bitcoin-cash-icon.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5700d26c-b3ea-42f2-9107-7dabbd73003d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "95d69dc8-7f30-4b28-ac45-1f80a838daf4"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acead6db-71d6-4c91-b7ea-27839bf9c24f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Bitcoin Cash",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-26T10:16:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-01T05:26:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/currencies\/bitcoin-cash",
+            "pid": 5,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_announcement_link": [
+        {
+            "uri": "https:\/\/bitcointalk.org\/index.php?topic=2040221.0",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_explorer": [
+        {
+            "uri": "https:\/\/blockchair.com\/bitcoin-cash\/blocks",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "http:\/\/blockdozer.com\/insight\/",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "https:\/\/www.blocktrail.com\/BCC",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_source_code": [
+        {
+            "uri": "https:\/\/github.com\/bitcoincashorg\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_is_it_favorite": [
+        {
+            "value": true
+        }
+    ],
+    "field_reddit_link": [
+        {
+            "uri": "https:\/\/www.reddit.com\/r\/Bitcoincash\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_symbol": [
+        {
+            "value": "BCH",
+            "lang": "en"
+        }
+    ],
+    "field_website_link": [
+        {
+            "uri": "https:\/\/www.bitcoincash.org\/",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        }
+    ]
+}

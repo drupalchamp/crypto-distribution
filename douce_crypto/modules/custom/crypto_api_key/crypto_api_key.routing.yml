@@ -1,0 +1,7 @@
+crypto_api_key.api_key_settings:
+  path: '/admin/config/crypto_api/settings'
+  defaults:
+    _form: '\Drupal\crypto_api_key\Form\CryptoApiKeyForm'
+    _title: 'Crypto API Settings'
+  requirements:
+    _permission: 'administer site configuration'

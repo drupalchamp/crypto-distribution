@@ -1,0 +1,198 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.markets.field_ask
+    - field.field.node.markets.field_base_currency
+    - field.field.node.markets.field_base_symbol
+    - field.field.node.markets.field_bid
+    - field.field.node.markets.field_change_24h
+    - field.field.node.markets.field_change_24h_pct
+    - field.field.node.markets.field_circulating_supply
+    - field.field.node.markets.field_high
+    - field.field.node.markets.field_last
+    - field.field.node.markets.field_low
+    - field.field.node.markets.field_market_cap
+    - field.field.node.markets.field_open
+    - field.field.node.markets.field_target_currency
+    - field.field.node.markets.field_target_symbol
+    - field.field.node.markets.field_volume
+    - node.type.markets
+  module:
+    - field_group
+third_party_settings:
+  field_group:
+    group_basic_information:
+      children:
+        - title
+        - field_pairname
+        - field_exchange
+        - field_base_currency
+        - field_base_symbol
+        - field_target_currency
+        - field_target_symbol
+      parent_name: ''
+      weight: 0
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'Basic Information'
+      region: content
+    group_trade_information:
+      children:
+        - field_volume
+        - field_open
+        - field_last
+        - field_ask
+        - field_bid
+        - field_high
+        - field_low
+        - field_market_cap
+        - field_circulating_supply
+      parent_name: ''
+      weight: 1
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'Trade Information'
+      region: content
+id: node.markets.default
+targetEntityType: node
+bundle: markets
+mode: default
+content:
+  field_ask:
+    weight: 11
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_base_currency:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_base_symbol:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_bid:
+    weight: 12
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_change_24h:
+    weight: 28
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_change_24h_pct:
+    weight: 29
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_circulating_supply:
+    weight: 16
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_crypto_currency:
+    weight: 27
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_high:
+    weight: 13
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_last:
+    weight: 10
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_low:
+    weight: 14
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_market_cap:
+    weight: 15
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_open:
+    weight: 9
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_target_currency:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_target_symbol:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_volume:
+    weight: 8
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

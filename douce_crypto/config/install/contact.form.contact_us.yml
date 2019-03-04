@@ -1,0 +1,12 @@
+uuid: ca539c15-47b3-4733-aa34-ddce7a36c744
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact Us'
+recipients:
+  - drupalchamp@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

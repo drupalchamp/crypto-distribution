@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.currency.field_currency_image
+    - node.type.currency
+  module:
+    - user
+id: node.currency.teaser
+targetEntityType: node
+bundle: currency
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_currency_image: true

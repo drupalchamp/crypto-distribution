@@ -1,0 +1,249 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/1281?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/markets"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/field_base_currency": [
+            {
+                "href": "http:\/\/default\/currencies\/cortex?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/field_target_currency": [
+            {
+                "href": "http:\/\/default\/node\/4?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1281
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f4ef6afb-ecdd-4514-8daf-306df067117d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1408
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "markets"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-02-18T06:58:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/field_base_currency": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/currencies\/cortex?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/currency"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f5f15e91-62d6-40b3-8985-ec5fa6f237de"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/markets\/field_target_currency": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/fiat_currency"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "21ffc901-4a16-45e2-89dd-a4d07bf8476d"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "CTXC\/USD",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-02-18T06:58:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-01T05:34:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_ask": [
+        {
+            "value": 0
+        }
+    ],
+    "field_base_symbol": [
+        {
+            "value": "CTXC"
+        }
+    ],
+    "field_bid": [
+        {
+            "value": 0
+        }
+    ],
+    "field_change_24h": [
+        {
+            "value": -0.00521151
+        }
+    ],
+    "field_change_24h_pct": [
+        {
+            "value": -3.57706
+        }
+    ],
+    "field_circulating_supply": [
+        {
+            "value": 299792000
+        }
+    ],
+    "field_high": [
+        {
+            "value": 0.143278
+        }
+    ],
+    "field_last": [
+        {
+            "value": 0.140481
+        }
+    ],
+    "field_low": [
+        {
+            "value": 0.136917
+        }
+    ],
+    "field_market_cap": [
+        {
+            "value": 42115100
+        }
+    ],
+    "field_open": [
+        {
+            "value": 0.136955
+        }
+    ],
+    "field_target_symbol": [
+        {
+            "value": "USD"
+        }
+    ],
+    "field_volume": [
+        {
+            "value": 0
+        }
+    ]
+}

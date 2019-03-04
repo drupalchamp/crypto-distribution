@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function crypto_api_key_install() {
+  // Set message for User to change the API Key.
+  \Drupal::messenger()->addMessage(t('Please update your <a href="@link">Crypto API Key</a>', ['@link' => 'admin/config/crypto_api/settings']));
+}

@@ -1,0 +1,7 @@
+crypto_import.update_currency_data:
+  title: 'Update Data'
+  route_name: crypto_import.import_data
+  description: 'Update Data Manually'
+  parent: crypto_global.settings
+  weight: 1
+

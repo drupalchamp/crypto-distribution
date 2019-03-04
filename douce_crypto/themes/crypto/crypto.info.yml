@@ -1,0 +1,28 @@
+# core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Crypto'
+description: 'Build and install a digital currency listing website that gives you live crypto currency prices.'
+package: 'Bootstrap'
+
+regions:
+  logo_area: Logo Area
+  menu_area: Menu Area
+  header_title: Header Title Area
+  sidebar_first: First Sidebar
+  content: Content
+  sidebar_second: Second Sidebar
+  footer_copyright: Footer Copyright
+  footer_menu: Footer Menu
+  footer_social: Footer Social
+  
+libraries:
+  - 'crypto/global-styling'
+  - 'crypto/spectrum'
+
+# Information added by Drupal.org packaging script on 2019-03-02
+version: '8.x-1.1'
+core: '8.x'
+project: 'crypto_distribution'
+datestamp: 1551525212

@@ -1,0 +1,7 @@
+crypto_markets:
+ path: '/currencies/{name}/markets'
+ defaults:
+   _title_callback: '\Drupal\crypto_markets\Controller\CryptoMarketsController::title'
+   _controller: '\Drupal\crypto_markets\Controller\CryptoMarketsController::content'
+ requirements:
+   _permission: 'access content'

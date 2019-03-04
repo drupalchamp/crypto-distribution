@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e47eb506-8533-473f-b11f-4e01c98f0dee'
+  module:
+    - block_content
+    - system
+  theme:
+    - crypto
+id: contactaddress
+theme: crypto
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:e47eb506-8533-473f-b11f-4e01c98f0dee'
+settings:
+  id: 'block_content:e47eb506-8533-473f-b11f-4e01c98f0dee'
+  label: 'Contact Address'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: false
+    context_mapping: {  }

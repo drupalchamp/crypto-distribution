@@ -1,0 +1,282 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/currencies\/verge?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/currency"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_currency_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-02\/xvg.png"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1374
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5958fa67-1bc1-46a6-adb5-fac474cc813c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1501
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "currency"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-02-18T10:22:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_currency_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-02\/xvg.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fd55a445-adc1-43f3-93ea-25e62e434883"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "95d69dc8-7f30-4b28-ac45-1f80a838daf4"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acead6db-71d6-4c91-b7ea-27839bf9c24f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Verge",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-02-18T10:22:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-02-20T07:59:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/currencies\/verge",
+            "pid": 188,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_announcement_link": [
+        {
+            "uri": "https:\/\/bitcointalk.org\/index.php?topic=1365894.0",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_chat_link": [
+        {
+            "uri": "https:\/\/t.me\/VERGExvg",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "https:\/\/discord.gg\/vergecurrency",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_explorer": [
+        {
+            "uri": "https:\/\/verge-blockchain.info\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_source_code": [
+        {
+            "uri": "https:\/\/github.com\/vergecurrency",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_technical_doc": [
+        {
+            "uri": "https:\/\/github.com\/vergecurrency\/Verge-Blackpaper\/blob\/master\/Verge-Anonymity-Centric-CryptoCurrency.pdf",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_reddit_link": [
+        {
+            "uri": "https:\/\/www.reddit.com\/r\/vergecurrency\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_symbol": [
+        {
+            "value": "XVG",
+            "lang": "en"
+        }
+    ],
+    "field_twitter_link": [
+        {
+            "uri": "https:\/\/twitter.com\/vergecurrency",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_website_link": [
+        {
+            "uri": "https:\/\/vergecurrency.com\/",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        }
+    ]
+}

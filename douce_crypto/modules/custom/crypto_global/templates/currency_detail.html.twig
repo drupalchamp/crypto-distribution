@@ -1,0 +1,174 @@
+<div class="wrapper row currency_detail">
+   <div class="details-panel-item--header col-sm-12">
+       <div class="currency-title details-panel-header col-sm-3">
+         <img src='{{ data.field_currency_image }}'> 
+	   	 <h1 class="details-panel-item--name">
+		 	<div class="coin_symbol" symbol="{{ data.field_symbol }}">{{ data.field_symbol }}</div>
+		 	<div class="text-bold text-gray text-large"> {{ data.title }} </div>
+         </h1>
+      </div>
+	   
+       <div class="details-panel-item--price bottom-margin-1x col-sm-2"> 
+          <span id="quote_price"> 
+		    <div class="text-semi-bold details-panel-item--price__value">
+                <span id="PRICE_{{ data.field_symbol }}" >${{ data.price|number_format(0, '.', ',') }}</span> 
+			</div>
+	        <div class="date_time">{{ data.current_time }}</div>
+          </span>
+       </div>
+	   
+       <div class="details-panel-item--today-details bottom-margin-1x col-sm-5"> 
+           <div class="table-responsive">
+			<table class="table table-hover table-striped">
+			    <thead>
+					<tr>
+						<th>Today: Open</th>
+						<th>Today's high</th>
+						<th>Today's low</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><span id="OPEN24HOUR_{{ data.field_symbol }}">${{ data.open|number_format(2, '.', ',') }}</span></td>
+						<td><span id="HIGH24HOUR_{{ data.field_symbol }}">${{ data.high|number_format(2, '.', ',') }}</span></td>
+						<td><span id="LOW24HOUR_{{ data.field_symbol }}">${{ data.low|number_format(2, '.', ',') }}</span></td>
+					</tr>
+				</tbody>
+			</table>
+		  </div>
+       </div>
+   </div>
+   
+   <div class="details-panel col-sm-3">
+      <ul class="list-unstyled details-panel-item--links col-sm-9">
+
+        {% for item in data.field_website_link  %}
+         <li class="mb-2">
+           <i class="fas fa-link mr-2"></i> 
+           <a href="{{ item.uri }}"> Website {% if loop.index > 1 %} {{ loop.index }} {% endif %}</a>
+         </li>
+        {% endfor %}
+
+	{% for item in data.field_announcement_link  %}
+         <li class="mb-2">
+           <i class="fas fa-bullhorn mr-2"></i> 
+           <a href="{{ item.uri }}"> Announcement {% if loop.index > 1 %} {{ loop.index }} {% endif %}</a>
+         </li>
+        {% endfor %}
+
+        {% for item in data.field_currency_explorer  %}
+         <li class="mb-2">
+           <i class="fas fa-search mr-2"></i> 
+           <a href="{{ item.uri }}"> Explorer {% if loop.index > 1 %} {{ loop.index }} {% endif %}</a>
+         </li>
+        {% endfor %}
+
+        {% for item in data.field_curreny_message_board  %}
+         <li class="mb-2">
+           <i class="fas fa-list-ul mr-2"></i> 
+           <a href="{{ item.uri }}"> Message Board {% if loop.index > 1 %} {{ loop.index }} {% endif %}</a>
+         </li>
+        {% endfor %}
+
+	{% for item in data.field_chat_link  %}
+         <li class="mb-2">
+           <i class="fas fa-comment-alt mr-2"></i> 
+           <a href="{{ item.uri }}"> Chat {% if loop.index > 1 %} {{ loop.index }} {% endif %}</a>
+         </li>
+        {% endfor %}
+
+        {% for item in data.field_currency_source_code  %}
+         <li class="mb-2">
+           <i class="fas fa-code mr-2"></i> 
+           <a href="{{ item.uri }}"> Source Code {% if loop.index > 1 %} {{ loop.index }} {% endif %}</a>
+         </li>
+        {% endfor %}
+
+        {% for item in data.field_currency_technical_doc  %}
+         <li class="mb-2">
+           <i class="fas fa-file mr-2"></i> 
+           <a href="{{ item.uri }}"> Technical Documentation {% if loop.index > 1 %} {{ loop.index }} {% endif %}</a>
+         </li>
+        {% endfor %}
+
+	{% if data.field_tags %}
+	<li class="mb-2">
+           <i class="fas fa-tag mr-2"></i>
+           {% for item in data.field_tags  %}
+              <span class="badge badge-warning text-white p-2 pr-3 pl-3">{{ item }}</span>
+	   {% endfor %}
+         </li>
+	{% endif %}
+
+       </ul>
+    </div>
+	<div class="details-panel-item--currency-chart col-sm-9" >
+		<div class="details-panel-item--marketcap-stats">
+			<div class="coin-summary-item">
+				<h5 class="coin-summary-item-header">Market Cap</h5>
+				<div class="coin-summary-item-detail">
+					<span id="MKCAP_{{ data.field_symbol }}" class="MKCAP" data-raw="${{ data.market_cap|number_format(0, '.', ',') }}">${{ data.market_cap|number_format(0, '.', ',') }}</span>
+				</div>
+			</div>
+			<div class="coin-summary-item">
+				<h5 class="coin-summary-item-header">Volume (24h)</h5>
+				<div class="coin-summary-item-detail">
+					<span id="VOLUME24HOURTO_{{ data.field_symbol }}">${{ data.volume|number_format(0, '.', ',') }}</span>
+				</div>
+			</div>
+			<div class="coin-summary-item">
+				<h5 class="coin-summary-item-header">Circulating Supply</h5>
+				<div class="coin-summary-item-detail">
+					<span id="SUPPLY_{{ data.field_symbol }}" class="SUPPLY" data-raw="{{ data.circulating_supply|number_format(0, '.', ',') }}">{{ data.circulating_supply|number_format(0, '.', ',') }} {{ data.field_symbol }}</span>
+				</div>
+			</div>
+	   </div>
+		<div class="currency-details">
+			  <div class="series-tt">
+				<p class=" text-left"><span class="mkt-n4">{{ data.field_symbol }}/EUR<span></span></span></p>
+				<span id="{{ data.field_symbol }}_EUR_PRICE" data-raw="0"></span>
+			  </div>
+			  <div class="series-tt">
+				<p class=" text-left"><span class="mkt-n4">{{ data.field_symbol }}/GBP<span></span></span></p>
+				<span id="{{ data.field_symbol }}_GBP_PRICE" data-raw="0"></span>
+			  </div>
+			  <div class="series-tt">
+				<p class=" text-left"><span class="mkt-n4">{{ data.field_symbol }}/JPY<span></span></span></p>
+				<span id="{{ data.field_symbol }}_JPY_PRICE" data-raw="0"></span>
+			  </div>
+			  <div class="series-tt">
+				<p class=" text-left"><span class="mkt-n4">{{ data.field_symbol }}/INR<span></span></span></p>
+				<span id="{{ data.field_symbol }}_INR_PRICE" data-raw="0"></span>
+			  </div>
+			  <div class="series-tt">
+				<p class=" text-left"><span class="mkt-n4">{{ data.field_symbol }}/RUB<span></span></span></p>
+				<span id="{{ data.field_symbol }}_RUB_PRICE" data-raw="0"></span>
+			  </div>
+			  <div class="series-tt">
+				<p class=" text-left"><span class="mkt-n4">{{ data.field_symbol }}/KRW<span></span></span></p>
+				<span id="{{ data.field_symbol }}_KRW_PRICE" data-raw="0"></span>
+			  </div>
+		</div>	
+</div>  
+    <div class="currency-detail-chart-header col-sm-12">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+         <a class="nav-link " href="{{path('entity.node.canonical', {'node': data.currency_nid})}}"><i class="fas fa-chart-bar"></i> Charts</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="{{path('entity.node.canonical', {'node': data.currency_nid})}}/markets"><i class="fas fa-exchange-alt"></i> Markets</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="{{path('entity.node.canonical', {'node': data.currency_nid})}}/social"><i class="fas fa-globe-asia"></i> Social</a>
+        </li>
+	<li class="nav-item">
+         <a class="nav-link" href="{{path('entity.node.canonical', {'node': data.currency_nid})}}/historical-data"><i class="fas fa-calendar-alt"></i> Historical Data</a>
+        </li>
+      </ul>
+    </div>
+</div>
+
+{# Now we attach the Chrts JS library In a Twig template. #}
+{{ attach_library('crypto_chart/socket_io') }}
+{{ attach_library('crypto_chart/ccc_streamer_utilities') }}
+{{ attach_library('crypto_chart/currency_details_stream') }}

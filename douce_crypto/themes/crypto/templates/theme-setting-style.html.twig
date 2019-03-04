@@ -1,0 +1,208 @@
+<style>
+body {
+  color: {{ body_color }};
+  font-size: {{ body_font_size }}px;
+  line-height: {{ body_line_height }}px;
+  background-color: {{ body_background }};
+}
+
+header {
+	background-color: {{ header_backgound }};
+}
+
+header .container {
+    max-width : {{ header_width }}%;
+	color: {{ header_text_color }};
+}
+
+header .container a,
+header .container ul li a {
+	color: {{ header_link_text_color }};
+}
+
+header .container ul li.active-trail > a,
+header .container ul li:hover > a,
+header .container ul li > a.is-active {
+	color: {{ header_link_hover_active_color }};
+	border-color: {{ header_link_hover_active_color }};
+}
+
+a {
+   color:{{ link_color }};
+}
+
+a:hover,
+a:focus,
+a.active {
+   color:{{ link_hover_active_color }};
+}
+
+a.morelink {
+	padding:5px 15px;
+	cursor: pointer;
+	color: {{ link_button_text_color }};
+	font-size: {{ link_button_font_size}}px ;
+	line-height: {{ link_button_line_height }}px;
+	background: {{ link_button_background_color }};
+}
+
+a.morelink:hover {
+   color: {{ link_button_text_hover_active_color }};
+   background: {{ link_button_background_hover_active_color }};
+}
+
+button,
+button.btn
+.form-submit,
+.btn {
+	padding: 5px 15px;
+	cursor: pointer;
+	font-size: {{ button_font_size }}px;
+	line-height: {{ button_line_height }}px;
+	color: {{ button_text_color }};
+	background: {{ button_background_color }};
+	box-shadow: none;
+	border: 0px;
+	border-radius:0px;
+}
+
+button:hover,
+button.btn:hover,
+.form-submit:hover,
+.btn:hover,
+button:focus,
+button.btn:focus
+.form-submit:focus,
+.btn:focus  {
+	color: {{ button_text_hover_active_color }};
+	background: {{ button_background_hover_active_color }} ;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: {{ heading_color }};
+}
+
+h1 {
+	font-size: {{ h1_font_size }}px;
+	line-height: {{ h1_lineheight }}px;
+}
+
+h2 {
+	font-size: {{ h2_lineheight }}px;
+	line-height: {{ h2_lineheight }}px;
+}
+
+h3 {
+	font-size: {{ h3_font_size }}px;
+	line-height: {{ h3_lineheight }}px;
+}
+
+h4 {
+	font-size: {{ h4_font_size }}px;
+	line-height: {{ h4_lineheight }}px;
+}
+
+h5 {
+	font-size: {{ h5_font_size }}px;
+	line-height: {{ h5_lineheight }}px;
+}
+
+h6 {
+	font-size: {{ h6_font_size }}px;
+	line-height: {{ h6_lineheight }}px;
+}
+
+p {
+   color: {{ paragraph_color }};
+   font-size: {{ paragraph_font_size }}px;
+   line-height: {{ paragraph_lineheight }}px;
+   padding-bottom: 10px;
+   margin: 0px;
+}
+
+.container {
+	max-width : {{ main_container_width }}%;
+}
+
+h1.page-header {
+   padding: 15px 0px 5px;
+   text-align: center;
+   color: {{ page_heading_color }};
+   font-size: {{ page_heading_font_size }}px;
+   line-height: {{ page_heading_line_height }}px;
+   background: {{ page_heading_background_color }};
+}
+
+footer  {
+	background-color: {{ footer_background }};
+}
+
+footer .container {
+    max-width : {{ footer_width }}%;
+	color: {{ footer_text_color }};
+}
+
+.page-footer li .fa,
+footer .container p,
+footer h2 {
+	color: {{ footer_text_color }};
+}
+
+footer .container a,
+footer .container ul li a {
+	color: {{ footer_link_text_color }};
+}
+
+footer .container .footer_menu a.is-active,
+footer .container ul li:hover > a {
+	color: {{ footer_link_hover_active_color }};
+}
+footer .container .footer_menu a{
+	color: {{ footer_text_color }};
+}
+body.node-contact-us #midcontent_area #block-contactblock{
+	background: {{ page_heading_background_color }};
+}
+
+body.node-contact-us #midcontent_area .webform-submission-contact-us-form .form-submit {
+	color: {{ footer_text_color }};
+	background: {{ footer_background }};
+}
+
+body.node-contact-us #midcontent_area .webform-submission-contact-us-form .form-submit:hover,
+body.node-contact-us #midcontent_area .webform-submission-contact-us-form .form-submit:focus {
+	color: {{ footer_text_color }};
+	background: {{ footer_link_hover_active_color }} ;
+}
+
+
+#block-currencydetail .currency-detail-chart-header ul li a {
+   color:{{ footer_text_color }};
+   border-color: transparent;
+   background: {{ footer_background }};
+}
+
+#block-currencydetail .currency-detail-chart-header ul li a:hover,
+#block-currencydetail .currency-detail-chart-header ul li a:focus,
+#block-currencydetail .currency-detail-chart-header ul li a.active {
+   color:{{ footer_text_color }};
+   background: {{ footer_link_hover_active_color }};
+}
+
+@media only screen and (min-width:0px) and (max-width:767px){
+
+header .container {
+    width : 100%;
+}
+
+.main-content .container {
+	width : 100%;
+}
+
+footer .container {
+    width : 100%;
+}
+
+}
+
+</style>

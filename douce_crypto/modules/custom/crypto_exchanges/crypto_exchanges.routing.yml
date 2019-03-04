@@ -1,0 +1,7 @@
+crypto_exchanges:
+ path: '/exchanges/{name}'
+ defaults:
+   _title_callback: '\Drupal\crypto_exchanges\Controller\CryptoExchangesController::title'
+   _controller: '\Drupal\crypto_exchanges\Controller\CryptoExchangesController::content'
+ requirements:
+   _permission: 'access content'

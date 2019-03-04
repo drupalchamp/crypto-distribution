@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - crypto_global
+    - system
+  theme:
+    - crypto
+id: currencydetail
+theme: crypto
+region: content
+weight: -6
+provider: null
+plugin: currency_detail
+settings:
+  id: currency_detail
+  label: 'Currency Detail'
+  provider: crypto_global
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/currencies/*'
+    negate: false
+    context_mapping: {  }

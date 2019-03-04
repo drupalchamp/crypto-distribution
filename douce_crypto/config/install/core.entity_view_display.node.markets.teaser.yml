@@ -1,0 +1,49 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.markets.field_ask
+    - field.field.node.markets.field_base_currency
+    - field.field.node.markets.field_base_symbol
+    - field.field.node.markets.field_bid
+    - field.field.node.markets.field_change_24h
+    - field.field.node.markets.field_change_24h_pct
+    - field.field.node.markets.field_circulating_supply
+    - field.field.node.markets.field_high
+    - field.field.node.markets.field_last
+    - field.field.node.markets.field_low
+    - field.field.node.markets.field_market_cap
+    - field.field.node.markets.field_open
+    - field.field.node.markets.field_target_currency
+    - field.field.node.markets.field_target_symbol
+    - field.field.node.markets.field_volume
+    - node.type.markets
+  module:
+    - user
+id: node.markets.teaser
+targetEntityType: node
+bundle: markets
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_ask: true
+  field_base_currency: true
+  field_base_symbol: true
+  field_bid: true
+  field_change_24h: true
+  field_change_24h_pct: true
+  field_circulating_supply: true
+  field_high: true
+  field_last: true
+  field_low: true
+  field_market_cap: true
+  field_open: true
+  field_target_currency: true
+  field_target_symbol: true
+  field_volume: true

@@ -1,0 +1,8 @@
+crypto_history.historical_data:
+  path: '/currencies/{name}/historical-data'
+  defaults: 
+    _controller: '\Drupal\crypto_history\Controller\CryptoHistoryController::content'
+    _title_callback: '\Drupal\crypto_history\Controller\CryptoHistoryController::title'
+  requirements:
+    _permission: 'access content'
+

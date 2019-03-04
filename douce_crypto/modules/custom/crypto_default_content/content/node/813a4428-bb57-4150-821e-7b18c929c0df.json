@@ -1,0 +1,299 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/currencies\/ethereum?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/currency"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_currency_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2019-01\/etherum-icon.png"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "813a4428-bb57-4150-821e-7b18c929c0df"
+        }
+    ],
+    "vid": [
+        {
+            "value": 8
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "currency"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-01-26T10:03:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_currency_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2019-01\/etherum-icon.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "526ed82b-6f4f-45f2-a663-9c503225c079"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/currency\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "95d69dc8-7f30-4b28-ac45-1f80a838daf4"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acead6db-71d6-4c91-b7ea-27839bf9c24f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Ethereum",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-26T10:03:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-01T05:26:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/currencies\/ethereum",
+            "pid": 3,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_announcement_link": [
+        {
+            "uri": "https:\/\/bitcointalk.org\/index.php?topic=428589.0",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_chat_link": [
+        {
+            "uri": "https:\/\/gitter.im\/orgs\/ethereum\/rooms",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_explorer": [
+        {
+            "uri": "https:\/\/etherscan.io\/",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "https:\/\/ethplorer.io\/",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "https:\/\/etherchain.org\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_source_code": [
+        {
+            "uri": "https:\/\/github.com\/ethereum",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_currency_technical_doc": [
+        {
+            "uri": "https:\/\/github.com\/ethereum\/wiki\/wiki\/White-Paper",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_curreny_message_board": [
+        {
+            "uri": "https:\/\/forum.ethereum.org\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_is_it_favorite": [
+        {
+            "value": true
+        }
+    ],
+    "field_reddit_link": [
+        {
+            "uri": "https:\/\/www.reddit.com\/r\/ethereum\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_symbol": [
+        {
+            "value": "ETH",
+            "lang": "en"
+        }
+    ],
+    "field_twitter_link": [
+        {
+            "uri": "https:\/\/twitter.com\/ethereum",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_website_link": [
+        {
+            "uri": "https:\/\/www.ethereum.org\/",
+            "title": "",
+            "options": [],
+            "lang": "en"
+        }
+    ]
+}

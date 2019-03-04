@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * crypto_markets.module
+ */
+
+ /**
+  * Implements hook_theme().
+  */
+function crypto_markets_theme() {
+  return [
+    'default' => [
+      'template' => 'default',
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+  ];
+}

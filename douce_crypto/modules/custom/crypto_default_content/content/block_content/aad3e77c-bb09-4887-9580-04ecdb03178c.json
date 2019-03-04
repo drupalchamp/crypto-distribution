@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/basic"
+        }
+    },
+    "id": [
+        {
+            "value": 3
+        }
+    ],
+    "uuid": [
+        {
+            "value": "aad3e77c-bb09-4887-9580-04ecdb03178c"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 3
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-02-05T05:48:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Social",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-01T05:00:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<ul>\r\n\t<li class=\"twitter\"><a href=\"#\"><span aria-hidden=\"true\" class=\"fa fa-twitter\">&nbsp;<\/span><\/a><\/li>\r\n\t<li class=\"facebook\"><a href=\"#\"><span aria-hidden=\"true\" class=\"fa fa-facebook\">&nbsp;<\/span><\/a><\/li>\r\n\t<li class=\"instagrams\"><a href=\"#\"><span aria-hidden=\"true\" class=\"fa fa-instagram\">&nbsp;<\/span><\/a><\/li>\r\n\t<li class=\"pinterest\"><a href=\"#\"><span aria-hidden=\"true\" class=\"fa fa-pinterest\">&nbsp;<\/span><\/a><\/li>\r\n\t<li class=\"linkedin\"><a href=\"#\"><span aria-hidden=\"true\" class=\"fa fa-linkedin\">&nbsp;<\/span><\/a><\/li>\r\n<\/ul>\r\n",
+            "format": "full_html",
+            "processed": "<ul>\n\t<li class=\"twitter\"><a href=\"#\"><span aria-hidden=\"true\" class=\"fa fa-twitter\">\u00a0<\/span><\/a><\/li>\n\t<li class=\"facebook\"><a href=\"#\"><span aria-hidden=\"true\" class=\"fa fa-facebook\">\u00a0<\/span><\/a><\/li>\n\t<li class=\"instagrams\"><a href=\"#\"><span aria-hidden=\"true\" class=\"fa fa-instagram\">\u00a0<\/span><\/a><\/li>\n\t<li class=\"pinterest\"><a href=\"#\"><span aria-hidden=\"true\" class=\"fa fa-pinterest\">\u00a0<\/span><\/a><\/li>\n\t<li class=\"linkedin\"><a href=\"#\"><span aria-hidden=\"true\" class=\"fa fa-linkedin\">\u00a0<\/span><\/a><\/li>\n<\/ul>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

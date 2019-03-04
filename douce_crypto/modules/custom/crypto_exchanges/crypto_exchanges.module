@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Crypto_exchanges.module.
+ */
+
+ /**
+  * Implements hook_theme().
+  */
+function crypto_exchanges_theme() {
+  return [
+    'default' => [
+      'template' => 'default',
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+  ];
+}

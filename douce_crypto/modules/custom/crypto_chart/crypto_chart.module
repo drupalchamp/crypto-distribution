@@ -1,0 +1,74 @@
+<?php
+
+/**
+ * @file
+ * Contains crypto_chart.module.
+ */
+
+use Drupal\views\ViewExecutable;
+
+/**
+ * Implements hook_views_pre_view().
+ */
+function crypto_chart_views_pre_view(ViewExecutable $view, $display_id, array &$args) {
+
+  if ($view->id() == 'markets' && $view->getDisplay()->display['id'] == 'currency_markets') {
+    $current_path = \Drupal::service('path.current')->getPath();
+    $path_args = explode('/', $current_path);
+
+    if (isset($path_args[3]) && $path_args[3] == 'markets' && !empty($path_args[2]) && $path_args[1] == 'currencies') {
+      unset($path_args[3]);
+
+      $path_alias = implode('/', $path_args);
+      $path = \Drupal::service('path.alias_manager')->getPathByAlias($path_alias);
+
+      if (preg_match('/node\/(\d+)/', $path, $matches)) {
+        $currency_nid = $matches[1];
+        if (!empty($currency_nid) && is_numeric($currency_nid)) {
+          $args[0] = $currency_nid;
+        }
+      }
+    }
+
+  }
+
+}
+
+/**
+ * Implements hook_views_pre_render().
+ */
+function crypto_chart_views_pre_render(ViewExecutable $view) {
+  if ((($view->id() == 'currency_listing') && ($view->getDisplay()->display['id'] == 'page_1' || $view->getDisplay()->display['id'] == 'block_1'))) {
+    $view->element['#attached']['library'][] = 'crypto_chart/angular_js_min';
+    $view->element['#attached']['library'][] = 'crypto_chart/socket_io';
+    $view->element['#attached']['library'][] = 'crypto_chart/ccc_streamer_utilities';
+    $view->element['#attached']['library'][] = 'crypto_chart/currency_list_stream';
+    $view->element['#attached']['library'][] = 'crypto_chart/price_graph';
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function crypto_chart_theme() {
+  return [
+    'default' => [
+      'template' => 'default',
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+    'currency_detail_chart' => [
+      'template' => 'currency_detail_chart',
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+    'twitter_social' => [
+      'template' => 'twitter_social',
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+  ];
+}

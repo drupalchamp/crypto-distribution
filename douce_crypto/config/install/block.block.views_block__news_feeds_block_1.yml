@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_feeds
+  module:
+    - system
+    - views
+  theme:
+    - crypto
+_core:
+  default_config_hash: QPgBDqF7viITWj9jJidCKhG2eGIy_1yRiBzcuRUBdXg
+id: views_block__news_feeds_block_1
+theme: crypto
+region: content
+weight: 1
+provider: null
+plugin: 'views_block:news_feeds-block_1'
+settings:
+  id: 'views_block:news_feeds-block_1'
+  label: Crypto-News
+  provider: views
+  label_display: visible
+  views_label: Crypto-News
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

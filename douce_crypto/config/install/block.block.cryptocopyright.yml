@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - crypto_copyright
+  theme:
+    - crypto
+id: cryptocopyright
+theme: crypto
+region: footer_copyright
+weight: 0
+provider: null
+plugin: crypto_copyright
+settings:
+  id: crypto_copyright
+  label: 'Crypto copyright'
+  provider: crypto_copyright
+  label_display: '0'
+visibility: {  }

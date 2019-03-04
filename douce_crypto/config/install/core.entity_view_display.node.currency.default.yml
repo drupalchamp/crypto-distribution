@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.currency.field_announcement_link
+    - field.field.node.currency.field_chat_link
+    - field.field.node.currency.field_currency_explorer
+    - field.field.node.currency.field_currency_image
+    - field.field.node.currency.field_currency_source_code
+    - field.field.node.currency.field_currency_technical_doc
+    - field.field.node.currency.field_curreny_message_board
+    - field.field.node.currency.field_is_it_favorite
+    - field.field.node.currency.field_reddit_link
+    - field.field.node.currency.field_symbol
+    - field.field.node.currency.field_tags
+    - field.field.node.currency.field_twitter_link
+    - field.field.node.currency.field_website_link
+    - node.type.currency
+  module:
+    - user
+id: node.currency.default
+targetEntityType: node
+bundle: currency
+mode: default
+content: {  }
+hidden:
+  field_announcement_link: true
+  field_chat_link: true
+  field_currency_explorer: true
+  field_currency_image: true
+  field_currency_source_code: true
+  field_currency_technical_doc: true
+  field_curreny_message_board: true
+  field_is_it_favorite: true
+  field_reddit_link: true
+  field_symbol: true
+  field_tags: true
+  field_twitter_link: true
+  field_website_link: true
+  links: true
+  sharethis: true

@@ -1,0 +1,30 @@
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.top_currencies
+  module:
+    - system
+    - views
+  theme:
+    - crypto
+id: views_block__top_currencies_block_1
+theme: crypto
+region: content
+weight: 2
+provider: null
+plugin: 'views_block:top_currencies-block_1'
+settings:
+  id: 'views_block:top_currencies-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

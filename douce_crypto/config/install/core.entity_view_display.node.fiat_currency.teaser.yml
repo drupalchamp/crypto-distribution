@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fiat_currency.field_symbol
+    - node.type.fiat_currency
+  module:
+    - user
+id: node.fiat_currency.teaser
+targetEntityType: node
+bundle: fiat_currency
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_symbol: true

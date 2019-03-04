@@ -1,0 +1,430 @@
+/**** Mobile Design Started ****/
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+  /* line 5, ../sass/responsive.scss */
+  #block-currencydetail .currency-details .series-tt {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  /* line 9, ../sass/responsive.scss */
+  #block-currencydetail .details-panel-item--price__value span {
+    padding: 5px 15px;
+    font-size: 21px;
+  }
+  /* line 13, ../sass/responsive.scss */
+  #block-currencydetail .details-panel-item--today-details,
+  #block-currencydetail .details-panel-item--buy-social-buttons {
+    padding: 0px;
+  }
+  /* line 17, ../sass/responsive.scss */
+  #block-currencydetail .details-panel-item--today-details .table tr th {
+    font-size: 11px;
+  }
+  /* line 20, ../sass/responsive.scss */
+  #block-currencydetail .details-panel-item--price {
+    width: 64%;
+  }
+  /* line 23, ../sass/responsive.scss */
+  #block-currencydetail .currency_detail .currency-title {
+    width: 35%;
+    text-align: center;
+  }
+  /* line 27, ../sass/responsive.scss */
+  #block-currencydetail .currency_detail .currency-title img {
+    float: none;
+    text-align: center;
+    margin: 0px;
+  }
+
+  /* line 33, ../sass/responsive.scss */
+  #block-addtoanybuttons {
+    right: 0px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 420px) {
+  /* line 36, ../sass/responsive.scss */
+  .currency-detail-chart-header {
+    padding: 0px;
+  }
+
+  /* line 39, ../sass/responsive.scss */
+  .currency-detail-chart-header .nav > li > a {
+    padding: 8px;
+  }
+
+  /* line 42, ../sass/responsive.scss */
+  .view-news-feeds .image-box {
+    width: 100%;
+    float: none;
+  }
+
+  /* line 43, ../sass/responsive.scss */
+  .view-news-feeds .news_description_box {
+    width: 100%;
+    float: none;
+    padding-left: 0%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 550px) {
+  /* line 46, ../sass/responsive.scss */
+  #block-currencydetail .details-panel-item--marketcap-stats .coin-summary-item {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 768px) {
+  /* line 52, ../sass/responsive.scss */
+  .currency-details .series-tt {
+    width: 33%;
+    margin-bottom: 20px;
+  }
+
+  /* line 56, ../sass/responsive.scss */
+  .currency_detail .details-panel-item--price {
+    padding-right: 9px !important;
+  }
+}
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+  /* line 60, ../sass/responsive.scss */
+  .view-news-feeds .views-col {
+    width: 48% !important;
+  }
+  /* line 63, ../sass/responsive.scss */
+  .view-news-feeds .views-col.col-2 {
+    margin-right: 5px;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 767px) {
+  /* line 69, ../sass/responsive.scss */
+  .views-field-field-volume {
+    display: table-cell !important;
+  }
+
+  /* line 72, ../sass/responsive.scss */
+  .view-currency-listing .table .views-field-field-volume {
+    width: 215px !important;
+    max-width: 215px !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  /* line 75, ../sass/responsive.scss */
+  .details-panel-item--today-details .table tr th {
+    text-align: center;
+    padding: 8px !important;
+  }
+
+  /* line 76, ../sass/responsive.scss */
+  .details-panel-item--today-details .table {
+    text-align: center;
+  }
+
+  /* line 77, ../sass/responsive.scss */
+  #block-addtoanybuttons {
+    top: 0px;
+    padding: 0px 4%;
+  }
+
+  /* line 78, ../sass/responsive.scss */
+  #block-currencydetail {
+    margin-top: 50px;
+  }
+
+  /* line 80, ../sass/responsive.scss */
+  .currency-detail-chart-header ul.nav li {
+    text-align: center;
+  }
+  /* line 81, ../sass/responsive.scss */
+  .currency-detail-chart-header ul.nav li i {
+    display: block;
+  }
+
+  /* line 83, ../sass/responsive.scss */
+  .daterangepicker.show-ranges.opensright.show-calendar {
+    right: 20px !important;
+  }
+
+  /* line 84, ../sass/responsive.scss */
+  .view-currency-listing {
+    width: 100%;
+  }
+
+  /* line 88, ../sass/responsive.scss */
+  .view-currency-listing .table tr th.views-field, .view-currency-listing .table tr td.views-field {
+    width: 130px;
+    max-width: 130px;
+    text-align: center;
+  }
+  /* line 93, ../sass/responsive.scss */
+  .view-currency-listing .views-field-field-change-24h-pct {
+    text-align: center !important;
+  }
+  /* line 96, ../sass/responsive.scss */
+  .view-currency-listing .views-field-field-market-cap, .view-currency-listing .views-field-field-volume, .view-currency-listing .views-field-field-high, .view-currency-listing .views-field-field-low, .view-currency-listing .views-field-nothing-1, .view-currency-listing .currency_details .currency_title {
+    display: none;
+  }
+  /* line 97, ../sass/responsive.scss */
+  .view-currency-listing .currency_symbol.responsive {
+    display: unset !important;
+  }
+  /* line 100, ../sass/responsive.scss */
+  .view-currency-listing .currency_details a img {
+    float: none;
+    margin-right: 0px;
+    padding-top: 0px;
+    margin: auto;
+  }
+  /* line 106, ../sass/responsive.scss */
+  .view-currency-listing .table tr th.views-field.views-field-counter,
+  .view-currency-listing .table tr td.views-field.views-field-counter {
+    width: 45px;
+    max-width: 45px;
+  }
+
+  /* line 112, ../sass/responsive.scss */
+  #navbar-header #logo-container {
+    float: left;
+  }
+
+  /* line 115, ../sass/responsive.scss */
+  #menu_area {
+    width: 100% !important;
+    padding: 0px;
+    float: right !important;
+  }
+
+  /* line 121, ../sass/responsive.scss */
+  #menu_area .sf-accordion-toggle {
+    width: 50%;
+    float: right;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    text-align: right;
+    padding-right: 25px;
+  }
+  /* line 130, ../sass/responsive.scss */
+  #menu_area #superfish-main-toggle span {
+    display: inline-block;
+    cursor: pointer;
+  }
+  /* line 134, ../sass/responsive.scss */
+  #menu_area #superfish-main-toggle span span {
+    display: block;
+    background: #fff;
+    height: 4px;
+    width: 25px;
+    margin-bottom: 5px;
+  }
+
+  /* line 142, ../sass/responsive.scss */
+  .page-header.container .row, footer .container, footer .container .row {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* line 146, ../sass/responsive.scss */
+  .currency tr th,
+  .currency tr td {
+    white-space: unset !important;
+  }
+
+  /* line 150, ../sass/responsive.scss */
+  .currency tr td.img-responsive {
+    margin: auto;
+  }
+
+  /* line 153, ../sass/responsive.scss */
+  .currency_detail .currency-title, .currency_detail .details-panel-item--price {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 20px;
+  }
+
+  /* line 160, ../sass/responsive.scss */
+  .view-news-feeds .views-col {
+    width: 100% !important;
+  }
+  /* line 163, ../sass/responsive.scss */
+  .view-news-feeds .more-link {
+    margin-top: 20px;
+  }
+  /* line 164, ../sass/responsive.scss */
+  .view-news-feeds .news_description_box .description_texts, .view-news-feeds .news_description_box .news_title {
+    height: auto !important;
+    margin-bottom: 5px;
+  }
+
+  /* line 169, ../sass/responsive.scss */
+  #content #block-contactblock, #content #block-contactaddress {
+    width: 100%;
+    padding: 0px 15px;
+    float: none;
+    margin-bottom: 10px;
+  }
+
+  /* line 175, ../sass/responsive.scss */
+  .navbar .logo {
+    padding-left: 0px;
+  }
+
+  /* line 178, ../sass/responsive.scss */
+  .main-content {
+    margin: 0px 5px;
+  }
+
+  /* line 181, ../sass/responsive.scss */
+  .user-pass, .user-register-form, .user-login-form {
+    width: 95%;
+    margin: auto;
+  }
+
+  /* line 185, ../sass/responsive.scss */
+  #block-twittersocialmediafeedsblock, #block-views-block-currency-news-block-1 {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 190, ../sass/responsive.scss */
+  .page-footer .container {
+    max-width: 100% !important;
+  }
+  /* line 191, ../sass/responsive.scss */
+  .page-footer .footer_copyright {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* line 192, ../sass/responsive.scss */
+  .page-footer .footer_menu {
+    padding: 15px 0px 0px 0px;
+  }
+  /* line 193, ../sass/responsive.scss */
+  .page-footer .footer_social {
+    padding: 0px;
+  }
+  /* line 194, ../sass/responsive.scss */
+  .page-footer #block-mainnavigation-2 {
+    float: none;
+    margin: auto;
+    width: 290px;
+  }
+  /* line 195, ../sass/responsive.scss */
+  .page-footer ul.menu {
+    float: none !important;
+  }
+  /* line 196, ../sass/responsive.scss */
+  .page-footer ul.menu a {
+    font-size: 15px !important;
+  }
+  /* line 197, ../sass/responsive.scss */
+  .page-footer #block-social {
+    width: 296px !important;
+  }
+  /* line 198, ../sass/responsive.scss */
+  .page-footer li .fa {
+    font-size: 21px !important;
+    padding: 0px 18px !important;
+  }
+
+  /* line 201, ../sass/responsive.scss */
+  .pager-nav ul li.pager__item {
+    margin-right: 4px;
+  }
+  /* line 202, ../sass/responsive.scss */
+  .pager-nav ul li.pager__item span {
+    padding: 0px;
+    font-size: 11px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  /* line 207, ../sass/responsive.scss */
+  .view-news-feeds .news_description_box .description_texts, .view-news-feeds .news_description_box .news_title {
+    height: auto !important;
+    margin-bottom: 10px;
+  }
+
+  /* line 212, ../sass/responsive.scss */
+  .page-header.container .row {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* line 216, ../sass/responsive.scss */
+  .view-currency-listing {
+    width: 100%;
+  }
+
+  /* line 220, ../sass/responsive.scss */
+  .view-currency-listing .table tr th.views-field.views-field-nothing, .view-currency-listing .table tr td.views-field.views-field-nothing {
+    width: 150px;
+    max-width: 150px;
+  }
+
+  /* line 223, ../sass/responsive.scss */
+  .page-footer .footer_menu.col-sm-4, .page-footer .footer_copyright.col-sm-4 {
+    padding: 0px;
+  }
+  /* line 224, ../sass/responsive.scss */
+  .page-footer #block-social {
+    width: 260px !important;
+  }
+  /* line 225, ../sass/responsive.scss */
+  .page-footer li .fa {
+    font-size: 20px !important;
+    padding: 0px 15px !important;
+  }
+  /* line 226, ../sass/responsive.scss */
+  .page-footer ul.menu li a {
+    font-size: 14px !important;
+    line-height: 25px !important;
+    padding: 0px 7px !important;
+  }
+}
+/**** Mobile Design Closed ****/
+/**** Ipad Design Started ****/
+@media only screen and (min-width: 980px) and (max-width: 1174px) {
+  /* line 235, ../sass/responsive.scss */
+  .view-currency-listing {
+    width: 100%;
+  }
+
+  /* line 238, ../sass/responsive.scss */
+  .page-header.container .row {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* line 243, ../sass/responsive.scss */
+  .page-footer #block-social {
+    width: 312px !important;
+  }
+  /* line 244, ../sass/responsive.scss */
+  .page-footer li .fa {
+    font-size: 24px !important;
+    padding: 0px 18px !important;
+  }
+  /* line 245, ../sass/responsive.scss */
+  .page-footer ul.menu li a {
+    font-size: 15px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  /* line 250, ../sass/responsive.scss */
+  .view-currency-listing .views-field-field-high, .view-currency-listing .views-field-field-low,
+  .view-currency-listing .views-field-field-market-cap {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 257, ../sass/responsive.scss */
+  .container {
+    width: 95% !important;
+  }
+
+  /* line 261, ../sass/responsive.scss */
+  #block-currencydetail .details-panel-item--price__value span {
+    padding: 5px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+/**** Ipad Design Closed ****/
