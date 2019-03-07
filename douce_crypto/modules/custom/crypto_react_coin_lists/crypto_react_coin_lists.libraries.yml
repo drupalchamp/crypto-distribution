@@ -1,0 +1,14 @@
+crypto_react_coin_lists:
+  version: VERSION
+  js:
+    js/react.production.min.js: {}
+    js/react-dom.production.min.js: {}
+    js/JSXTransformer.js: {}
+    js/html-react-parser.min.js: {}
+    js/react-jsx-highstock.min.js: {}
+    js/socket.io.js: {}
+    js/ccc-streamer-utilities.js: {}
+    js/currency_list_stream.js: {}
+  css:
+    theme:
+      css/currency_list_stream.css: {}

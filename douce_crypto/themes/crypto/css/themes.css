@@ -25,7 +25,8 @@ tr.odd {
 }
 
 /* line 17, ../sass/themes.scss */
-.se-pre-con {
+.se-pre-con,
+#loader{
   position: fixed;
   left: 0px;
   top: 0px;

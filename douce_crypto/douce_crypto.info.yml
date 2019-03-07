@@ -77,6 +77,8 @@ install:
 - crypto_history
 - crypto_import
 - crypto_copyright
+- rest
+- crypto_react_coin_lists
 
 # List any themes that should be installed as part of the profile installation.
 # Note that this will not set any theme as the default theme.
@@ -85,8 +87,8 @@ themes:
 - bootstrap
 - seven
 
-# Information added by Drupal.org packaging script on 2019-03-02
-version: '8.x-1.1'
+# Information added by Drupal.org packaging script on 2019-03-06
+version: '8.x-2.3'
 core: '8.x'
 project: 'crypto_distribution'
-datestamp: 1551525212
+datestamp: 1551878415

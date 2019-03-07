@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * This is the module to create list crypto coin list.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function crypto_react_coin_lists_theme() {
+  
+  return [
+    'crypto_lists_content' => [
+      'template' => 'crypto-lists-content',
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+  ];
+
+}
+

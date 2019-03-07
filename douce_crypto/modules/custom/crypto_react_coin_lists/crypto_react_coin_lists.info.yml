@@ -1,0 +1,10 @@
+name: Crypto React Coin Lists
+type: module
+description: "Crypto React Coin Lists."
+# core: 8.x
+
+# Information added by Drupal.org packaging script on 2019-03-06
+version: '8.x-2.3'
+core: '8.x'
+project: 'crypto_distribution'
+datestamp: 1551878415

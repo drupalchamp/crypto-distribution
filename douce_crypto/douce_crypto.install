@@ -39,5 +39,5 @@ function douce_crypto_install() {
   \Drupal::service('module_installer')->install(['crypto_default_content'], TRUE);
 
   // Set front page to "node".
-  \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/node/15')->save(TRUE);
+  \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/crypto-coin-lists')->save(TRUE);
 }

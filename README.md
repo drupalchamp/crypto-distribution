@@ -13,7 +13,7 @@ To install the profile:
 
 Notes:
 
-- Please update the Crypto API Key after site installation "/admin/config/crypto_api/settings", else data updatation will be failed when free API key maximum limit is reached.
+- Please update the Crypto API Key after site installation "/admin/config/crypto_api/settings", else data updation will be failed when free API key maximum limit is reached.
 
   You can generate a new API key from Crypto Compare site https://www.cryptocompare.com	API menu tab.
 
@@ -33,6 +33,8 @@ Features
 
 - Provides SASS support for the Douce Crypto theme
   You can write the SASS code in sass file in theme folder "sass" directory and compile it
+
+- Uses the Highchart library to display the intractive chart.
 
 Thank you for choosing
 

@@ -1,0 +1,245 @@
+{#
+/**
+ * @file
+ * Crypto coin list template file.
+ *
+ */
+#}
+
+{{ attach_library('crypto_react_coin_lists/crypto_react_coin_lists') }}
+
+<div id="myreactapp"></div>
+<script type="text/jsx">
+  class App extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        error: null,
+        isLoaded: false,
+        items: []
+      };
+    }
+    componentDidMount() {
+      const tsym = "USD";
+      const fsym = this.props.symbol;
+      var self = this;
+      var dataUrl = "https://min-api.cryptocompare.com/data/histoday?fsym="+fsym+"&tsym="+tsym+"&limit=50&api_key=94bd24152dd9a5483feea0322dd0a26b755e70775c1c0fcce55ba146b61b6a41";
+      fetch(dataUrl)
+      .then(res => res.json())
+      .then(
+        (result) => {
+
+           var seriesOptions = [], arr = [], close = [], seriesCounter = 0;
+           var color = '#f5f5f5';
+           var green = '#3d9400';
+           var red = '#A11B0A';
+           var old_val = 0;
+
+           jQuery.each(result.Data, function (kt, vt) {
+             if (old_val < vt['close']) {
+               color = green;
+             }
+             else if (old_val > vt['close']) {
+               color = red;
+             }
+             old_val = vt['close'];
+             var time = Number(vt['time']);
+             var value = Number(vt['close']);
+             close[kt] = {
+               date: time,
+               y: value,
+               segmentColor: color
+             };
+           });
+	   jQuery.each(close, function (key, value) {
+             seriesOptions[0] = {
+               type: 'coloredline',
+               name: 'Price',
+               data: close,
+               visible: true,
+             };
+	     seriesCounter += 1;
+	     if (seriesCounter === close.length) {
+	       Highcharts.stockChart(self.props.id, {
+	         chart: {
+		   width: 175,
+		   height: 36,
+		   spacing:[0, 0, 0, 0],
+		   margin: [0, 0, 0, 0],
+		 },
+
+		 title : {
+		  text : null
+		 },
+
+   	         legend:   { enabled: false },
+		 credits:   { enabled: false },
+		 scrollbar: { enabled: false },
+		 navigator: { enabled: false },
+		 exporting: { enabled: false },
+		 rangeSelector: { enabled: false },
+
+		 yAxis: {
+		   labels: {
+		     formatter: function () {
+		     },
+		   },
+		   plotLines: [{
+	             value: 0,
+		     width: 0,
+		     color: 'silver'
+		   }],
+		 },
+		 xAxis: {
+		   lineWidth: 0,
+                   minorGridLineWidth: 0,
+                   lineColor: 'transparent',
+                   gridLineColor: 'transparent',
+                   labels: {
+                     enabled: false
+                   },
+                   minorTickLength: 0,
+                   tickLength: 0,
+                   visible: false,
+                   plotLines: [{
+                     value: 0,
+                     width: 0,
+                     color: 'silver'
+                   }]
+                 },
+		 plotOptions: {
+		   series: {
+                     lineWidth: 1,
+		   },
+		 },
+		 series: seriesOptions
+	      });
+	    }
+	  });
+        },
+        // Note: it's important to handle errors here
+        // instead of a catch() block so that we don't swallow
+        // exceptions from actual bugs in components.
+        (error) => {
+          this.setState({
+            isLoaded: true,
+            error
+          });
+        }
+      );
+
+    }
+
+    render() {
+      return (
+        <div>
+          <div id={this.props.id}> </div>
+        </div>
+      );
+    }
+  }
+
+  class MyComponent extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        error: null,
+        isLoaded: false,
+        items: []
+      };
+    }
+
+    componentDidMount() {
+      fetch(drupalSettings.path.baseUrl+"api/coin-list?_format=json")
+        .then(res => res.json())
+        .then(
+          (result) => {
+            this.setState({
+              isLoaded: true,
+              items: result
+            });
+          },
+          // Note: it's important to handle errors here
+          // instead of a catch() block so that we don't swallow
+          // exceptions from actual bugs in components.
+          (error) => {
+            this.setState({
+              isLoaded: true,
+              error
+            });
+          }
+        )
+
+    }
+    render() {
+      const { error, isLoaded, items } = this.state;
+      if (error) {
+        return <div>Error: {error.message}</div>;
+      } else if (!isLoaded) {
+        return <div className="text-center" id="loader"></div>;
+      } else {
+        /////////////script for websocket
+        var subscription = [];
+        jQuery.each(items, function(index, value){
+          var symbol = value.field_symbol;
+          if (symbol) {
+            subscription.push('5~CCCAGG~'+symbol+'~USD');
+            subscription.push('11~'+symbol);
+          }
+        });
+        var socket = io.connect('https://streamer.cryptocompare.com/');
+        socket.emit('SubAdd', { subs: subscription });
+        socket.on("m", function (message) {
+
+          var messageType = message.substring(0, message.indexOf("~"));
+          if (messageType == CCC.STATIC.TYPE.CURRENTAGG) {
+            dataUnpack(message);
+          }
+          else if (messageType == CCC.STATIC.TYPE.FULLVOLUME) {
+            decorateWithFullVolume(message);
+          }
+        });
+        return (
+	  <div class="currency view view-currency-listing view-id-currency_listing ">
+            <table className="table table-hover table-striped" width="100%">
+	      <thead>
+	        <tr>
+	          <th className="views-field views-field-counter">#</th>
+	          <th className="views-field views-field-nothing">Name</th>
+	          <th className="views-field views-field-field-last">Price</th>
+	          <th className="views-field views-field-field-market-cap">Market Cap</th>
+	          <th className="views-field views-field-field-volume">Volume(24h)</th>
+	          <th className="views-field views-field-field-high">High</th>
+	          <th className="views-field views-field-field-low">Low</th>
+	          <th className="views-field views-field-field-change-24h-pct">Change (24h)</th>
+	          <th className="chart views-field views-field-nothing-1">Chart</th>
+	        </tr>
+	      </thead>
+	      <tbody>
+                {items.map((item,index) => (
+	          <tr>
+                    <td className="views-field views-field-counter">{index + 1}</td>
+                    <td className="views-field views-field-nothing">{window.HTMLReactParser(item.nothing)}</td>
+                    <td className="views-field views-field-field-last">{window.HTMLReactParser(item.field_last)}</td>
+                    <td className="views-field views-field-field-market-cap">{window.HTMLReactParser(item.field_market_cap)}</td>
+                    <td className="views-field views-field-field-volume">{window.HTMLReactParser(item.field_volume)}</td>
+                    <td className="views-field views-field-field-high">{window.HTMLReactParser(item.field_high)}</td>
+                    <td className="views-field views-field-field-low">{window.HTMLReactParser(item.field_low)}</td>
+                    <td className="views-field views-field-field-change-24h-pct">{window.HTMLReactParser(item.field_change_24h_pct)}</td>
+                    <td className="chart views-field views-field-nothing-1"><App id={item.nothing_1} symbol={item.field_symbol} /></td>
+  	          </tr>
+                ))}
+	      </tbody>
+            </table>
+	    <div className="more-link form-group"><a href="/coins/list">View All Coins</a></div>
+	  </div>
+        );
+      }
+    }
+  }
+
+  ReactDOM.render(
+    <MyComponent />,
+    document.getElementById('myreactapp')
+  );
+</script>

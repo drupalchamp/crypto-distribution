@@ -1,0 +1,7 @@
+crypto_coin_lists:
+ path: 'crypto-coin-lists'
+ defaults:
+   _title: 'Crypto coin lists'
+   _controller: '\Drupal\crypto_react_coin_lists\Controller\CryptoCoinListsContent::content'
+ requirements:
+   _permission: 'access content'

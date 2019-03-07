@@ -1,0 +1,44 @@
+a {
+ color:white;
+}
+.price-display {
+ font-weight:bold;
+ text-align:center;
+}
+span {
+ color:#121212;
+ font-size:14px;
+}
+.views-field-field-last span {
+ background:#f5f5f5;
+ border:1px solid #EEE;
+ text-align:center;
+ white-space:nowrap;
+}
+.view-currency-listing span {
+ padding:2px 12px;
+}
+.view-currency-listing span.up {
+ color:#fff;
+ background:#3d9400;
+}
+.view-currency-listing span.down {
+ color:#fff;
+ background:#A11B0A;
+}
+.SUPPLY.up,
+.MKCAP.up,
+.pct-up {
+ font-size:12px;
+ color:#096b23;
+ padding-left:2%;
+ font-weight:bold;
+}
+.SUPPLY.down,
+.MKCAP.down,
+.pct-down {
+ font-size:12px;
+ color:#f00;
+ padding-left:2%;
+ font-weight:bold;
+}
