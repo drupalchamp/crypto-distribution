@@ -36,6 +36,8 @@ Features
 
 - Uses the Highchart library to display the intractive chart.
 
-Thank you for choosing
+- Now this distribution supported more the 800 crypto currencies.
+
+Thank you for choosing 
 
 - Douce Crypto Profile

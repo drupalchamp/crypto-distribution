@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2019-04\/CT_Logo_YG_tag.png"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 892
+        }
+    ],
+    "uuid": [
+        {
+            "value": "beeeb39a-49b6-42dc-99d1-026c86e3768b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "130dbb89-c27c-42f1-8d44-0cf8e5da27cd"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "CT_Logo_YG_tag.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2019-04\/CT_Logo_YG_tag.png",
+            "url": "\/sites\/default\/files\/2019-04\/CT_Logo_YG_tag.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 16632
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-04-02T05:42:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-02T05:42:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

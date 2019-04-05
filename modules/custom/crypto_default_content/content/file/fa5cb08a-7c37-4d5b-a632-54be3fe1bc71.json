@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2019-03\/wex.jpg.png"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 884
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fa5cb08a-7c37-4d5b-a632-54be3fe1bc71"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "130dbb89-c27c-42f1-8d44-0cf8e5da27cd"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "wex.jpg.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2019-03\/wex.jpg.png",
+            "url": "\/sites\/default\/files\/2019-03\/wex.jpg.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 46921
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-03-30T08:21:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-03-30T08:21:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

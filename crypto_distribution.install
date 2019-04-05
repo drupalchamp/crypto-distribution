@@ -1,0 +1,43 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the profilename install profile.
+ */
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function crypto_distribution_install() {
+
+  // First, do everything in standard profile.
+  include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
+  standard_install();
+
+  // Copy image for default content to public folder.
+  $folder_names = ['2019-01', '2019-02', '2019-03', '2019-04', 'inline-images'];
+  foreach ($folder_names as $folder_name) {
+    $path = 'public://' . $folder_name . '/';
+    if (file_prepare_directory($path, FILE_CREATE_DIRECTORY)) {
+      $original = drupal_get_path('profile', 'crypto_distribution') . '/resources/' . $folder_name;
+      $files = file_scan_directory($original, '/.*/');
+      if (!empty($files)) {
+        foreach ($files as $file) {
+          if (!empty($file->uri)) {
+            file_unmanaged_copy($file->uri, $path, FILE_EXISTS_REPLACE);
+          }
+        }
+      }
+    }
+  }
+
+  // Install Demo Content.
+  \Drupal::service('module_installer')->install(['crypto_default_content'], TRUE);
+
+  // Set front page to "node".
+  \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/crypto-coin-lists')->save(TRUE);
+}

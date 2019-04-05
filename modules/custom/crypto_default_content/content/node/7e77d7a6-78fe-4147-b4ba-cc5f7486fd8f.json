@@ -74,7 +74,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                        "value": "130dbb89-c27c-42f1-8d44-0cf8e5da27cd"
                     }
                 ]
             }
@@ -91,7 +91,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                        "value": "130dbb89-c27c-42f1-8d44-0cf8e5da27cd"
                     }
                 ],
                 "lang": "en"
@@ -186,7 +186,7 @@
     "path": [
         {
             "alias": "\/currencies\/worldwide-asset-exchange",
-            "pid": 142,
+            "pid": 278,
             "langcode": "en",
             "lang": "en"
         }
@@ -234,6 +234,11 @@
             "uri": "https:\/\/medium.com\/wax-io\/",
             "title": "",
             "options": []
+        }
+    ],
+    "field_is_it_favorite": [
+        {
+            "value": false
         }
     ],
     "field_reddit_link": [

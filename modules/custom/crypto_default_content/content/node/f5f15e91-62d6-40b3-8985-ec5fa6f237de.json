@@ -68,7 +68,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                        "value": "130dbb89-c27c-42f1-8d44-0cf8e5da27cd"
                     }
                 ]
             }
@@ -85,7 +85,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                        "value": "130dbb89-c27c-42f1-8d44-0cf8e5da27cd"
                     }
                 ],
                 "lang": "en"
@@ -162,7 +162,7 @@
     "path": [
         {
             "alias": "\/currencies\/cortex",
-            "pid": 157,
+            "pid": 309,
             "langcode": "en",
             "lang": "en"
         }
@@ -205,6 +205,11 @@
             "uri": "https:\/\/medium.com\/@CTXCBlockchain",
             "title": "",
             "options": []
+        }
+    ],
+    "field_is_it_favorite": [
+        {
+            "value": false
         }
     ],
     "field_reddit_link": [

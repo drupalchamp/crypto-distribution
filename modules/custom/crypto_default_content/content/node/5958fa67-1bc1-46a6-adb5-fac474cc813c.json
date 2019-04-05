@@ -78,7 +78,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                        "value": "130dbb89-c27c-42f1-8d44-0cf8e5da27cd"
                     }
                 ]
             }
@@ -95,7 +95,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "a17ff604-b133-4ba0-82fa-96404fbcda46"
+                        "value": "130dbb89-c27c-42f1-8d44-0cf8e5da27cd"
                     }
                 ],
                 "lang": "en"
@@ -206,7 +206,7 @@
     "path": [
         {
             "alias": "\/currencies\/verge",
-            "pid": 188,
+            "pid": 216,
             "langcode": "en",
             "lang": "en"
         }
@@ -249,6 +249,11 @@
             "uri": "https:\/\/github.com\/vergecurrency\/Verge-Blackpaper\/blob\/master\/Verge-Anonymity-Centric-CryptoCurrency.pdf",
             "title": "",
             "options": []
+        }
+    ],
+    "field_is_it_favorite": [
+        {
+            "value": false
         }
     ],
     "field_reddit_link": [

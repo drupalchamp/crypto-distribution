@@ -18,7 +18,7 @@ _core:
 favicon:
   mimetype: image/jpeg
   path: 'public://favicon_1.jpg'
-  url: 'http://development.drupalchamp.org/profiles/douce_crypto/themes/crypto/favicon.ico'
+  url: 'http://development.drupalchamp.org/profiles/crypto_distribution/themes/crypto/favicon.ico'
   use_default: true
 region_wells:
   logo_area: ''
